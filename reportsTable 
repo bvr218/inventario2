@@ -1,0 +1,43 @@
+ <div class="bg-box-background shadow rounded my-4">
+                <div class="border-b border-box-edge">
+                    <table class="table ns-table w-full">
+                        <thead class="text-primary">
+                            <tr>
+                                <th class="border p-2 text-left">{{ __( 'Products' ) }}</th>
+                                <th width="150" class="border p-2">{{ __( 'Quantity' ) }}</th>
+                                <th width="150" class="border p-2">{{ __( 'Discounts' ) }}</th>
+                                <th width="150" class="border p-2">{{ __( 'Cost' ) }}</th>
+                                <th width="150" class="border p-2">{{ __( 'Taxes' ) }}</th>
+                                <th width="150" class="border p-2">{{ __( 'Total' ) }}</th>
+                                <th width="150" class="border p-2">{{ __( 'Profit' ) }}</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-primary">
+                            <tr v-for="product of result" :key="product.id">
+                                <td class="p-2 border">{{ product.name }}</td>
+                                <td class="p-2 border text-right">{{ product.quantity }}</td>
+                                <td class="p-2 border text-right">{{ nsCurrency( product.discount ) }}</td>
+                                <td class="p-2 border text-right">{{ nsCurrency( product.total_purchase_price ) }}</td>
+                                <td class="p-2 border text-right">{{ nsCurrency( product.tax_value ) }}</td>
+                                <td class="p-2 border text-right">{{ nsCurrency( product.total_price ) }}</td>
+                                <td class="p-2 border text-right">{{ nsCurrency( 
+                                    Math.chain( product.total_price ).subtract( 
+                                        Math.chain( product.total_purchase_price ).add( product.tax_value ).done() 
+                                    ).done()
+                                ) }}</td>
+                            </tr>
+                        </tbody>
+                        <tfoot class="text-primary font-semibold">
+                            <tr>
+                                <td class="p-2 border text-primary"></td>
+                                <td class="p-2 border text-right text-primary">{{ computeTotal( result, 'quantity' ) }}</td>
+                                <td class="p-2 border text-right text-primary">{{ nsCurrency( computeTotal( result, 'discount' ) ) }}</td>
+                                <td class="p-2 border text-right text-primary">{{ nsCurrency( computeTotal( result, 'total_purchase_price' ) ) }}</td>
+                                <td class="p-2 border text-right text-primary">{{ nsCurrency( computeTotal( result, 'tax_value' ) ) }}</td>
+                                <td class="p-2 border text-right text-primary">{{ nsCurrency( computeTotal( result, 'total_price' ) ) }}</td>
+                                <td class="p-2 border text-right text-primary">{{ nsCurrency( computeTotal( result, 'total_price' ) - computeTotal( result, 'total_purchase_price' ) - computeTotal( result, 'tax_value' ) ) }}</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>

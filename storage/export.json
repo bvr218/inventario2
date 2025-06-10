@@ -1,0 +1,2546 @@
+[
+    {
+        "valor_compra": 29379,
+        "codigo_producto": "0198"
+    },
+    {
+        "valor_compra": 15979,
+        "codigo_producto": "0200"
+    },
+    {
+        "valor_compra": 10632,
+        "codigo_producto": "063"
+    },
+    {
+        "valor_compra": 654,
+        "codigo_producto": "021"
+    },
+    {
+        "valor_compra": 25704,
+        "codigo_producto": "020"
+    },
+    {
+        "valor_compra": 106802,
+        "codigo_producto": "011"
+    },
+    {
+        "valor_compra": 243950,
+        "codigo_producto": "012"
+    },
+    {
+        "valor_compra": 138873,
+        "codigo_producto": "013"
+    },
+    {
+        "valor_compra": 257516,
+        "codigo_producto": "015"
+    },
+    {
+        "valor_compra": 228182,
+        "codigo_producto": "014"
+    },
+    {
+        "valor_compra": 120725,
+        "codigo_producto": "010"
+    },
+    {
+        "valor_compra": 210213,
+        "codigo_producto": "017"
+    },
+    {
+        "valor_compra": 147084,
+        "codigo_producto": "016"
+    },
+    {
+        "valor_compra": 1,
+        "codigo_producto": "022"
+    },
+    {
+        "valor_compra": 10115,
+        "codigo_producto": "018"
+    },
+    {
+        "valor_compra": 3332,
+        "codigo_producto": "019"
+    },
+    {
+        "valor_compra": 5890,
+        "codigo_producto": "06"
+    },
+    {
+        "valor_compra": 5890,
+        "codigo_producto": "07"
+    },
+    {
+        "valor_compra": 6069,
+        "codigo_producto": "08"
+    },
+    {
+        "valor_compra": 2975,
+        "codigo_producto": "04"
+    },
+    {
+        "valor_compra": 3391,
+        "codigo_producto": "01"
+    },
+    {
+        "valor_compra": 2975,
+        "codigo_producto": "03"
+    },
+    {
+        "valor_compra": 3272,
+        "codigo_producto": "05"
+    },
+    {
+        "valor_compra": 6366,
+        "codigo_producto": "09"
+    },
+    {
+        "valor_compra": 2975,
+        "codigo_producto": "02"
+    },
+    {
+        "valor_compra": 655,
+        "codigo_producto": "023"
+    },
+    {
+        "valor_compra": 1622,
+        "codigo_producto": "025"
+    },
+    {
+        "valor_compra": 939,
+        "codigo_producto": "027"
+    },
+    {
+        "valor_compra": 1936,
+        "codigo_producto": "026"
+    },
+    {
+        "valor_compra": 285,
+        "codigo_producto": "029"
+    },
+    {
+        "valor_compra": 217,
+        "codigo_producto": "028"
+    },
+    {
+        "valor_compra": 788,
+        "codigo_producto": "024"
+    },
+    {
+        "valor_compra": 2603,
+        "codigo_producto": "058"
+    },
+    {
+        "valor_compra": 3855,
+        "codigo_producto": "060"
+    },
+    {
+        "valor_compra": 35,
+        "codigo_producto": "067"
+    },
+    {
+        "valor_compra": 51,
+        "codigo_producto": "068"
+    },
+    {
+        "valor_compra": 2891,
+        "codigo_producto": "061"
+    },
+    {
+        "valor_compra": 703,
+        "codigo_producto": "036"
+    },
+    {
+        "valor_compra": 1407,
+        "codigo_producto": "035"
+    },
+    {
+        "valor_compra": 789,
+        "codigo_producto": "031"
+    },
+    {
+        "valor_compra": 614,
+        "codigo_producto": "032"
+    },
+    {
+        "valor_compra": 285,
+        "codigo_producto": "033"
+    },
+    {
+        "valor_compra": 349,
+        "codigo_producto": "030"
+    },
+    {
+        "valor_compra": 1044,
+        "codigo_producto": "034"
+    },
+    {
+        "valor_compra": 161,
+        "codigo_producto": "075"
+    },
+    {
+        "valor_compra": 120,
+        "codigo_producto": "073"
+    },
+    {
+        "valor_compra": 29,
+        "codigo_producto": "074"
+    },
+    {
+        "valor_compra": 9887,
+        "codigo_producto": "064"
+    },
+    {
+        "valor_compra": 24,
+        "codigo_producto": "066"
+    },
+    {
+        "valor_compra": 18,
+        "codigo_producto": "065"
+    },
+    {
+        "valor_compra": 42,
+        "codigo_producto": "071"
+    },
+    {
+        "valor_compra": 64,
+        "codigo_producto": "072"
+    },
+    {
+        "valor_compra": 28,
+        "codigo_producto": "070"
+    },
+    {
+        "valor_compra": 13598,
+        "codigo_producto": "069"
+    },
+    {
+        "valor_compra": 8051,
+        "codigo_producto": "062"
+    },
+    {
+        "valor_compra": 2057,
+        "codigo_producto": "059"
+    },
+    {
+        "valor_compra": 25446,
+        "codigo_producto": "077"
+    },
+    {
+        "valor_compra": 52024,
+        "codigo_producto": "079"
+    },
+    {
+        "valor_compra": 35059,
+        "codigo_producto": "078"
+    },
+    {
+        "valor_compra": 13874,
+        "codigo_producto": "076"
+    },
+    {
+        "valor_compra": 218,
+        "codigo_producto": "089"
+    },
+    {
+        "valor_compra": 2786,
+        "codigo_producto": "0105"
+    },
+    {
+        "valor_compra": 1160,
+        "codigo_producto": "0100"
+    },
+    {
+        "valor_compra": 10756,
+        "codigo_producto": "087"
+    },
+    {
+        "valor_compra": 506,
+        "codigo_producto": "0107"
+    },
+    {
+        "valor_compra": 1260,
+        "codigo_producto": "0108"
+    },
+    {
+        "valor_compra": 3395,
+        "codigo_producto": "085"
+    },
+    {
+        "valor_compra": 4819,
+        "codigo_producto": "056"
+    },
+    {
+        "valor_compra": 2786,
+        "codigo_producto": "0102"
+    },
+    {
+        "valor_compra": 3855,
+        "codigo_producto": "057"
+    },
+    {
+        "valor_compra": 2786,
+        "codigo_producto": "0103"
+    },
+    {
+        "valor_compra": 2786,
+        "codigo_producto": "0104"
+    },
+    {
+        "valor_compra": 7301,
+        "codigo_producto": "086"
+    },
+    {
+        "valor_compra": 1160,
+        "codigo_producto": "0101"
+    },
+    {
+        "valor_compra": 2930,
+        "codigo_producto": "092"
+    },
+    {
+        "valor_compra": 1750,
+        "codigo_producto": "091"
+    },
+    {
+        "valor_compra": 2753,
+        "codigo_producto": "080"
+    },
+    {
+        "valor_compra": 2233,
+        "codigo_producto": "090"
+    },
+    {
+        "valor_compra": 1598,
+        "codigo_producto": "083"
+    },
+    {
+        "valor_compra": 1980,
+        "codigo_producto": "096"
+    },
+    {
+        "valor_compra": 1160,
+        "codigo_producto": "099"
+    },
+    {
+        "valor_compra": 1823,
+        "codigo_producto": "098"
+    },
+    {
+        "valor_compra": 1823,
+        "codigo_producto": "097"
+    },
+    {
+        "valor_compra": 996,
+        "codigo_producto": "081"
+    },
+    {
+        "valor_compra": 905,
+        "codigo_producto": "088"
+    },
+    {
+        "valor_compra": 398,
+        "codigo_producto": "093"
+    },
+    {
+        "valor_compra": 580,
+        "codigo_producto": "084"
+    },
+    {
+        "valor_compra": 615,
+        "codigo_producto": "095"
+    },
+    {
+        "valor_compra": 615,
+        "codigo_producto": "094"
+    },
+    {
+        "valor_compra": 308,
+        "codigo_producto": "0106"
+    },
+    {
+        "valor_compra": 247,
+        "codigo_producto": "082"
+    },
+    {
+        "valor_compra": 842,
+        "codigo_producto": "0132"
+    },
+    {
+        "valor_compra": 1604,
+        "codigo_producto": "0130"
+    },
+    {
+        "valor_compra": 525,
+        "codigo_producto": "0131"
+    },
+    {
+        "valor_compra": 20512,
+        "codigo_producto": "0137"
+    },
+    {
+        "valor_compra": 936,
+        "codigo_producto": "0120"
+    },
+    {
+        "valor_compra": 2327,
+        "codigo_producto": "0122"
+    },
+    {
+        "valor_compra": 4680,
+        "codigo_producto": "0125"
+    },
+    {
+        "valor_compra": 31249,
+        "codigo_producto": "0126"
+    },
+    {
+        "valor_compra": 18268,
+        "codigo_producto": "0112"
+    },
+    {
+        "valor_compra": 2327,
+        "codigo_producto": "0123"
+    },
+    {
+        "valor_compra": 3397,
+        "codigo_producto": "0136"
+    },
+    {
+        "valor_compra": 875,
+        "codigo_producto": "0133"
+    },
+    {
+        "valor_compra": 816,
+        "codigo_producto": "0118"
+    },
+    {
+        "valor_compra": 2520,
+        "codigo_producto": "0110"
+    },
+    {
+        "valor_compra": 936,
+        "codigo_producto": "0134"
+    },
+    {
+        "valor_compra": 6385,
+        "codigo_producto": "0116"
+    },
+    {
+        "valor_compra": 1917,
+        "codigo_producto": "0115"
+    },
+    {
+        "valor_compra": 3893,
+        "codigo_producto": "0113"
+    },
+    {
+        "valor_compra": 816,
+        "codigo_producto": "0119"
+    },
+    {
+        "valor_compra": 1260,
+        "codigo_producto": "0109"
+    },
+    {
+        "valor_compra": 2520,
+        "codigo_producto": "0111"
+    },
+    {
+        "valor_compra": 4680,
+        "codigo_producto": "0124"
+    },
+    {
+        "valor_compra": 510,
+        "codigo_producto": "0117"
+    },
+    {
+        "valor_compra": 446,
+        "codigo_producto": "0129"
+    },
+    {
+        "valor_compra": 936,
+        "codigo_producto": "0121"
+    },
+    {
+        "valor_compra": 746,
+        "codigo_producto": "0128"
+    },
+    {
+        "valor_compra": 318,
+        "codigo_producto": "0114"
+    },
+    {
+        "valor_compra": 252,
+        "codigo_producto": "0127"
+    },
+    {
+        "valor_compra": 635,
+        "codigo_producto": "0152"
+    },
+    {
+        "valor_compra": 4326,
+        "codigo_producto": "0159"
+    },
+    {
+        "valor_compra": 287,
+        "codigo_producto": "0150"
+    },
+    {
+        "valor_compra": 1037,
+        "codigo_producto": "0157"
+    },
+    {
+        "valor_compra": 2299,
+        "codigo_producto": "0199"
+    },
+    {
+        "valor_compra": 660,
+        "codigo_producto": "0164"
+    },
+    {
+        "valor_compra": 3042,
+        "codigo_producto": "0166"
+    },
+    {
+        "valor_compra": 729,
+        "codigo_producto": "0160"
+    },
+    {
+        "valor_compra": 82848,
+        "codigo_producto": "0201"
+    },
+    {
+        "valor_compra": 4178,
+        "codigo_producto": "0140"
+    },
+    {
+        "valor_compra": 1602,
+        "codigo_producto": "0138"
+    },
+    {
+        "valor_compra": 1895,
+        "codigo_producto": "0142"
+    },
+    {
+        "valor_compra": 69153,
+        "codigo_producto": "0146"
+    },
+    {
+        "valor_compra": 35733,
+        "codigo_producto": "0147"
+    },
+    {
+        "valor_compra": 22088,
+        "codigo_producto": "0145"
+    },
+    {
+        "valor_compra": 7292,
+        "codigo_producto": "0141"
+    },
+    {
+        "valor_compra": 4313,
+        "codigo_producto": "0154"
+    },
+    {
+        "valor_compra": 696,
+        "codigo_producto": "0153"
+    },
+    {
+        "valor_compra": 1944,
+        "codigo_producto": "0139"
+    },
+    {
+        "valor_compra": 7680,
+        "codigo_producto": "0144"
+    },
+    {
+        "valor_compra": 3748,
+        "codigo_producto": "0143"
+    },
+    {
+        "valor_compra": 1316,
+        "codigo_producto": "0148"
+    },
+    {
+        "valor_compra": 420,
+        "codigo_producto": "0151"
+    },
+    {
+        "valor_compra": 2002,
+        "codigo_producto": "0156"
+    },
+    {
+        "valor_compra": 1914,
+        "codigo_producto": "0163"
+    },
+    {
+        "valor_compra": 7692,
+        "codigo_producto": "0149"
+    },
+    {
+        "valor_compra": 2959,
+        "codigo_producto": "0155"
+    },
+    {
+        "valor_compra": 255,
+        "codigo_producto": "0158"
+    },
+    {
+        "valor_compra": 182,
+        "codigo_producto": "0165"
+    },
+    {
+        "valor_compra": 364,
+        "codigo_producto": "0167"
+    },
+    {
+        "valor_compra": 310,
+        "codigo_producto": "0179"
+    },
+    {
+        "valor_compra": 689,
+        "codigo_producto": "0177"
+    },
+    {
+        "valor_compra": 8156,
+        "codigo_producto": "0172"
+    },
+    {
+        "valor_compra": 3899,
+        "codigo_producto": "0169"
+    },
+    {
+        "valor_compra": 6599,
+        "codigo_producto": "0175"
+    },
+    {
+        "valor_compra": 46667,
+        "codigo_producto": "0176"
+    },
+    {
+        "valor_compra": 4707,
+        "codigo_producto": "0168"
+    },
+    {
+        "valor_compra": 1140,
+        "codigo_producto": "0173"
+    },
+    {
+        "valor_compra": 216,
+        "codigo_producto": "0178"
+    },
+    {
+        "valor_compra": 1895,
+        "codigo_producto": "0194"
+    },
+    {
+        "valor_compra": 4439,
+        "codigo_producto": "0195"
+    },
+    {
+        "valor_compra": 1919,
+        "codigo_producto": "0193"
+    },
+    {
+        "valor_compra": 203,
+        "codigo_producto": "0183"
+    },
+    {
+        "valor_compra": 2158,
+        "codigo_producto": "0184"
+    },
+    {
+        "valor_compra": 1317,
+        "codigo_producto": "0181"
+    },
+    {
+        "valor_compra": 963,
+        "codigo_producto": "0182"
+    },
+    {
+        "valor_compra": 525,
+        "codigo_producto": "0180"
+    },
+    {
+        "valor_compra": 564,
+        "codigo_producto": "0189"
+    },
+    {
+        "valor_compra": 1199,
+        "codigo_producto": "0190"
+    },
+    {
+        "valor_compra": 1650,
+        "codigo_producto": "0191"
+    },
+    {
+        "valor_compra": 7680,
+        "codigo_producto": "0192"
+    },
+    {
+        "valor_compra": 431,
+        "codigo_producto": "0188"
+    },
+    {
+        "valor_compra": 4195,
+        "codigo_producto": "0186"
+    },
+    {
+        "valor_compra": 9647,
+        "codigo_producto": "0185"
+    },
+    {
+        "valor_compra": 4629,
+        "codigo_producto": "0187"
+    },
+    {
+        "valor_compra": 1319,
+        "codigo_producto": "0174"
+    },
+    {
+        "valor_compra": 1506,
+        "codigo_producto": "0170"
+    },
+    {
+        "valor_compra": 421,
+        "codigo_producto": "0171"
+    },
+    {
+        "valor_compra": 69230,
+        "codigo_producto": "0197"
+    },
+    {
+        "valor_compra": 7680,
+        "codigo_producto": "0196"
+    },
+    {
+        "valor_compra": 19255,
+        "codigo_producto": "0205"
+    },
+    {
+        "valor_compra": 1922,
+        "codigo_producto": "0202"
+    },
+    {
+        "valor_compra": 25413,
+        "codigo_producto": "0204"
+    },
+    {
+        "valor_compra": 21007,
+        "codigo_producto": "0203"
+    },
+    {
+        "valor_compra": 82495,
+        "codigo_producto": "055"
+    },
+    {
+        "valor_compra": 8729,
+        "codigo_producto": "040"
+    },
+    {
+        "valor_compra": 7146,
+        "codigo_producto": "046"
+    },
+    {
+        "valor_compra": 7146,
+        "codigo_producto": "044"
+    },
+    {
+        "valor_compra": 7146,
+        "codigo_producto": "039"
+    },
+    {
+        "valor_compra": 8729,
+        "codigo_producto": "042"
+    },
+    {
+        "valor_compra": 7146,
+        "codigo_producto": "045"
+    },
+    {
+        "valor_compra": 8729,
+        "codigo_producto": "043"
+    },
+    {
+        "valor_compra": 7146,
+        "codigo_producto": "047"
+    },
+    {
+        "valor_compra": 12656,
+        "codigo_producto": "038"
+    },
+    {
+        "valor_compra": 7146,
+        "codigo_producto": "041"
+    },
+    {
+        "valor_compra": 8690,
+        "codigo_producto": "037"
+    },
+    {
+        "valor_compra": 25588,
+        "codigo_producto": "0206"
+    },
+    {
+        "valor_compra": 16670,
+        "codigo_producto": "0214"
+    },
+    {
+        "valor_compra": 7026,
+        "codigo_producto": "0208"
+    },
+    {
+        "valor_compra": 11407,
+        "codigo_producto": "0215"
+    },
+    {
+        "valor_compra": 2797,
+        "codigo_producto": "0209"
+    },
+    {
+        "valor_compra": 5385,
+        "codigo_producto": "0218"
+    },
+    {
+        "valor_compra": 2797,
+        "codigo_producto": "0213"
+    },
+    {
+        "valor_compra": 3462,
+        "codigo_producto": "0216"
+    },
+    {
+        "valor_compra": 2700,
+        "codigo_producto": "0217"
+    },
+    {
+        "valor_compra": 3063,
+        "codigo_producto": "0220"
+    },
+    {
+        "valor_compra": 4795,
+        "codigo_producto": "0211"
+    },
+    {
+        "valor_compra": 4318,
+        "codigo_producto": "0212"
+    },
+    {
+        "valor_compra": 2797,
+        "codigo_producto": "0219"
+    },
+    {
+        "valor_compra": 3825,
+        "codigo_producto": "0210"
+    },
+    {
+        "valor_compra": 9531,
+        "codigo_producto": "0221"
+    },
+    {
+        "valor_compra": 2979,
+        "codigo_producto": "0222"
+    },
+    {
+        "valor_compra": 10888,
+        "codigo_producto": "0207"
+    },
+    {
+        "valor_compra": 7144,
+        "codigo_producto": "048"
+    },
+    {
+        "valor_compra": 7146,
+        "codigo_producto": "049"
+    },
+    {
+        "valor_compra": 18996,
+        "codigo_producto": "050"
+    },
+    {
+        "valor_compra": 76,
+        "codigo_producto": "052"
+    },
+    {
+        "valor_compra": 39,
+        "codigo_producto": "051"
+    },
+    {
+        "valor_compra": 59,
+        "codigo_producto": "053"
+    },
+    {
+        "valor_compra": 27760,
+        "codigo_producto": "054"
+    },
+    {
+        "valor_compra": 199901,
+        "codigo_producto": "0233"
+    },
+    {
+        "valor_compra": 199901,
+        "codigo_producto": "0234"
+    },
+    {
+        "valor_compra": 195032,
+        "codigo_producto": "0235"
+    },
+    {
+        "valor_compra": 7354,
+        "codigo_producto": "0236"
+    },
+    {
+        "valor_compra": 7354,
+        "codigo_producto": "0238"
+    },
+    {
+        "valor_compra": 7354,
+        "codigo_producto": "0237"
+    },
+    {
+        "valor_compra": 7659,
+        "codigo_producto": "0240"
+    },
+    {
+        "valor_compra": 7659,
+        "codigo_producto": "0242"
+    },
+    {
+        "valor_compra": 7659,
+        "codigo_producto": "0241"
+    },
+    {
+        "valor_compra": 7359,
+        "codigo_producto": "0239"
+    },
+    {
+        "valor_compra": 5662,
+        "codigo_producto": "0224"
+    },
+    {
+        "valor_compra": 2754,
+        "codigo_producto": "0223"
+    },
+    {
+        "valor_compra": 3699,
+        "codigo_producto": "0225"
+    },
+    {
+        "valor_compra": 1619,
+        "codigo_producto": "0227"
+    },
+    {
+        "valor_compra": 4103,
+        "codigo_producto": "0230"
+    },
+    {
+        "valor_compra": 6278,
+        "codigo_producto": "0231"
+    },
+    {
+        "valor_compra": 10092,
+        "codigo_producto": "0232"
+    },
+    {
+        "valor_compra": 13230,
+        "codigo_producto": "0226"
+    },
+    {
+        "valor_compra": 1890,
+        "codigo_producto": "0228"
+    },
+    {
+        "valor_compra": 2964,
+        "codigo_producto": "0229"
+    },
+    {
+        "valor_compra": 9317,
+        "codigo_producto": "0243"
+    },
+    {
+        "valor_compra": 7679,
+        "codigo_producto": "0244"
+    },
+    {
+        "valor_compra": 7697,
+        "codigo_producto": "0247"
+    },
+    {
+        "valor_compra": 6799,
+        "codigo_producto": "0249"
+    },
+    {
+        "valor_compra": 6799,
+        "codigo_producto": "0253"
+    },
+    {
+        "valor_compra": 7056,
+        "codigo_producto": "0246"
+    },
+    {
+        "valor_compra": 5144,
+        "codigo_producto": "0248"
+    },
+    {
+        "valor_compra": 7697,
+        "codigo_producto": "0251"
+    },
+    {
+        "valor_compra": 7056,
+        "codigo_producto": "0250"
+    },
+    {
+        "valor_compra": 7741,
+        "codigo_producto": "0252"
+    },
+    {
+        "valor_compra": 4475,
+        "codigo_producto": "0262"
+    },
+    {
+        "valor_compra": 1491,
+        "codigo_producto": "0256"
+    },
+    {
+        "valor_compra": 4475,
+        "codigo_producto": "0261"
+    },
+    {
+        "valor_compra": 19405,
+        "codigo_producto": "0255"
+    },
+    {
+        "valor_compra": 8400,
+        "codigo_producto": "0263"
+    },
+    {
+        "valor_compra": 19400,
+        "codigo_producto": "0265"
+    },
+    {
+        "valor_compra": 2972,
+        "codigo_producto": "0259"
+    },
+    {
+        "valor_compra": 2072,
+        "codigo_producto": "0260"
+    },
+    {
+        "valor_compra": 6766,
+        "codigo_producto": "0254"
+    },
+    {
+        "valor_compra": 6799,
+        "codigo_producto": "0264"
+    },
+    {
+        "valor_compra": 6426,
+        "codigo_producto": "0258"
+    },
+    {
+        "valor_compra": 2731,
+        "codigo_producto": "0257"
+    },
+    {
+        "valor_compra": 5965,
+        "codigo_producto": "0272"
+    },
+    {
+        "valor_compra": 3834,
+        "codigo_producto": "0268"
+    },
+    {
+        "valor_compra": 4506,
+        "codigo_producto": "0269"
+    },
+    {
+        "valor_compra": 5099,
+        "codigo_producto": "0270"
+    },
+    {
+        "valor_compra": 5574,
+        "codigo_producto": "0271"
+    },
+    {
+        "valor_compra": 7106,
+        "codigo_producto": "0267"
+    },
+    {
+        "valor_compra": 9838,
+        "codigo_producto": "0266"
+    },
+    {
+        "valor_compra": 5833,
+        "codigo_producto": "0245"
+    },
+    {
+        "valor_compra": 18115,
+        "codigo_producto": "0282"
+    },
+    {
+        "valor_compra": 18115,
+        "codigo_producto": "0279"
+    },
+    {
+        "valor_compra": 18115,
+        "codigo_producto": "0280"
+    },
+    {
+        "valor_compra": 18115,
+        "codigo_producto": "0281"
+    },
+    {
+        "valor_compra": 26570,
+        "codigo_producto": "0287"
+    },
+    {
+        "valor_compra": 2358,
+        "codigo_producto": "0284"
+    },
+    {
+        "valor_compra": 2846,
+        "codigo_producto": "0285"
+    },
+    {
+        "valor_compra": 1964,
+        "codigo_producto": "0283"
+    },
+    {
+        "valor_compra": 651,
+        "codigo_producto": "0286"
+    },
+    {
+        "valor_compra": 17758,
+        "codigo_producto": "0299"
+    },
+    {
+        "valor_compra": 15982,
+        "codigo_producto": "0297"
+    },
+    {
+        "valor_compra": 12326,
+        "codigo_producto": "0298"
+    },
+    {
+        "valor_compra": 16065,
+        "codigo_producto": "0296"
+    },
+    {
+        "valor_compra": 14781,
+        "codigo_producto": "0295"
+    },
+    {
+        "valor_compra": 18861,
+        "codigo_producto": "0291"
+    },
+    {
+        "valor_compra": 40799,
+        "codigo_producto": "0293"
+    },
+    {
+        "valor_compra": 18473,
+        "codigo_producto": "0294"
+    },
+    {
+        "valor_compra": 60401,
+        "codigo_producto": "0292"
+    },
+    {
+        "valor_compra": 7922,
+        "codigo_producto": "0300"
+    },
+    {
+        "valor_compra": 8156,
+        "codigo_producto": "0301"
+    },
+    {
+        "valor_compra": 2323,
+        "codigo_producto": "0275"
+    },
+    {
+        "valor_compra": 1922,
+        "codigo_producto": "0274"
+    },
+    {
+        "valor_compra": 3781,
+        "codigo_producto": "0276"
+    },
+    {
+        "valor_compra": 25413,
+        "codigo_producto": "0290"
+    },
+    {
+        "valor_compra": 18686,
+        "codigo_producto": "0288"
+    },
+    {
+        "valor_compra": 21007,
+        "codigo_producto": "0289"
+    },
+    {
+        "valor_compra": 13977,
+        "codigo_producto": "0278"
+    },
+    {
+        "valor_compra": 19036,
+        "codigo_producto": "0277"
+    },
+    {
+        "valor_compra": 30605,
+        "codigo_producto": "0273"
+    },
+    {
+        "valor_compra": 11620,
+        "codigo_producto": "0303"
+    },
+    {
+        "valor_compra": 12537,
+        "codigo_producto": "0304"
+    },
+    {
+        "valor_compra": 9087,
+        "codigo_producto": "0302"
+    },
+    {
+        "valor_compra": 222421,
+        "codigo_producto": "0324"
+    },
+    {
+        "valor_compra": 368537,
+        "codigo_producto": "0323"
+    },
+    {
+        "valor_compra": 18115,
+        "codigo_producto": "0309"
+    },
+    {
+        "valor_compra": 18115,
+        "codigo_producto": "0306"
+    },
+    {
+        "valor_compra": 18115,
+        "codigo_producto": "0307"
+    },
+    {
+        "valor_compra": 18105,
+        "codigo_producto": "0308"
+    },
+    {
+        "valor_compra": 18115,
+        "codigo_producto": "0310"
+    },
+    {
+        "valor_compra": 18115,
+        "codigo_producto": "0314"
+    },
+    {
+        "valor_compra": 18115,
+        "codigo_producto": "0311"
+    },
+    {
+        "valor_compra": 18115,
+        "codigo_producto": "0312"
+    },
+    {
+        "valor_compra": 18115,
+        "codigo_producto": "0313"
+    },
+    {
+        "valor_compra": 931,
+        "codigo_producto": "0305"
+    },
+    {
+        "valor_compra": 20499,
+        "codigo_producto": "0317"
+    },
+    {
+        "valor_compra": 20025,
+        "codigo_producto": "0316"
+    },
+    {
+        "valor_compra": 2504,
+        "codigo_producto": "0315"
+    },
+    {
+        "valor_compra": 28358,
+        "codigo_producto": "0318"
+    },
+    {
+        "valor_compra": 6770,
+        "codigo_producto": "0322"
+    },
+    {
+        "valor_compra": 10939,
+        "codigo_producto": "0319"
+    },
+    {
+        "valor_compra": 5345,
+        "codigo_producto": "0321"
+    },
+    {
+        "valor_compra": 10939,
+        "codigo_producto": "0320"
+    },
+    {
+        "valor_compra": 20228,
+        "codigo_producto": "03217"
+    },
+    {
+        "valor_compra": 31046,
+        "codigo_producto": "0326"
+    },
+    {
+        "valor_compra": 24396,
+        "codigo_producto": "0325"
+    },
+    {
+        "valor_compra": 18788,
+        "codigo_producto": "0328"
+    },
+    {
+        "valor_compra": 25003,
+        "codigo_producto": "0329"
+    },
+    {
+        "valor_compra": 30647,
+        "codigo_producto": "0330"
+    },
+    {
+        "valor_compra": 19,
+        "codigo_producto": "0342"
+    },
+    {
+        "valor_compra": 23,
+        "codigo_producto": "0338"
+    },
+    {
+        "valor_compra": 40,
+        "codigo_producto": "0341"
+    },
+    {
+        "valor_compra": 55,
+        "codigo_producto": "0333"
+    },
+    {
+        "valor_compra": 92,
+        "codigo_producto": "0337"
+    },
+    {
+        "valor_compra": 19,
+        "codigo_producto": "0343"
+    },
+    {
+        "valor_compra": 72,
+        "codigo_producto": "0335"
+    },
+    {
+        "valor_compra": 23,
+        "codigo_producto": "0344"
+    },
+    {
+        "valor_compra": 20,
+        "codigo_producto": "0345"
+    },
+    {
+        "valor_compra": 199,
+        "codigo_producto": "0359"
+    },
+    {
+        "valor_compra": 238,
+        "codigo_producto": "0354"
+    },
+    {
+        "valor_compra": 368,
+        "codigo_producto": "0356"
+    },
+    {
+        "valor_compra": 40,
+        "codigo_producto": "0339"
+    },
+    {
+        "valor_compra": 30,
+        "codigo_producto": "0340"
+    },
+    {
+        "valor_compra": 159,
+        "codigo_producto": "0357"
+    },
+    {
+        "valor_compra": 114,
+        "codigo_producto": "0349"
+    },
+    {
+        "valor_compra": 58,
+        "codigo_producto": "0331"
+    },
+    {
+        "valor_compra": 98,
+        "codigo_producto": "0336"
+    },
+    {
+        "valor_compra": 111,
+        "codigo_producto": "0348"
+    },
+    {
+        "valor_compra": 68,
+        "codigo_producto": "0332"
+    },
+    {
+        "valor_compra": 77,
+        "codigo_producto": "0334"
+    },
+    {
+        "valor_compra": 187,
+        "codigo_producto": "0350"
+    },
+    {
+        "valor_compra": 229,
+        "codigo_producto": "0351"
+    },
+    {
+        "valor_compra": 290,
+        "codigo_producto": "0352"
+    },
+    {
+        "valor_compra": 264,
+        "codigo_producto": "0353"
+    },
+    {
+        "valor_compra": 479,
+        "codigo_producto": "0355"
+    },
+    {
+        "valor_compra": 230,
+        "codigo_producto": "0358"
+    },
+    {
+        "valor_compra": 19,
+        "codigo_producto": "0346"
+    },
+    {
+        "valor_compra": 61,
+        "codigo_producto": "0347"
+    },
+    {
+        "valor_compra": 1632,
+        "codigo_producto": "0366"
+    },
+    {
+        "valor_compra": 2250,
+        "codigo_producto": "0365"
+    },
+    {
+        "valor_compra": 361,
+        "codigo_producto": "0360"
+    },
+    {
+        "valor_compra": 460,
+        "codigo_producto": "0361"
+    },
+    {
+        "valor_compra": 31,
+        "codigo_producto": "0362"
+    },
+    {
+        "valor_compra": 61,
+        "codigo_producto": "0363"
+    },
+    {
+        "valor_compra": 78,
+        "codigo_producto": "0364"
+    },
+    {
+        "valor_compra": 337,
+        "codigo_producto": "0395"
+    },
+    {
+        "valor_compra": 722,
+        "codigo_producto": "0405"
+    },
+    {
+        "valor_compra": 647,
+        "codigo_producto": "0406"
+    },
+    {
+        "valor_compra": 1489,
+        "codigo_producto": "0410"
+    },
+    {
+        "valor_compra": 1782,
+        "codigo_producto": "0412"
+    },
+    {
+        "valor_compra": 700,
+        "codigo_producto": "0401"
+    },
+    {
+        "valor_compra": 858,
+        "codigo_producto": "0408"
+    },
+    {
+        "valor_compra": 107,
+        "codigo_producto": "0393"
+    },
+    {
+        "valor_compra": 254,
+        "codigo_producto": "0402"
+    },
+    {
+        "valor_compra": 352,
+        "codigo_producto": "0397"
+    },
+    {
+        "valor_compra": 539,
+        "codigo_producto": "0399"
+    },
+    {
+        "valor_compra": 170,
+        "codigo_producto": "0396"
+    },
+    {
+        "valor_compra": 783,
+        "codigo_producto": "0407"
+    },
+    {
+        "valor_compra": 1291,
+        "codigo_producto": "0409"
+    },
+    {
+        "valor_compra": 1587,
+        "codigo_producto": "0411"
+    },
+    {
+        "valor_compra": 152,
+        "codigo_producto": "0394"
+    },
+    {
+        "valor_compra": 427,
+        "codigo_producto": "0403"
+    },
+    {
+        "valor_compra": 616,
+        "codigo_producto": "0404"
+    },
+    {
+        "valor_compra": 577,
+        "codigo_producto": "0400"
+    },
+    {
+        "valor_compra": 457,
+        "codigo_producto": "0398"
+    },
+    {
+        "valor_compra": 23,
+        "codigo_producto": "0415"
+    },
+    {
+        "valor_compra": 73,
+        "codigo_producto": "0417"
+    },
+    {
+        "valor_compra": 117,
+        "codigo_producto": "0419"
+    },
+    {
+        "valor_compra": 31,
+        "codigo_producto": "0416"
+    },
+    {
+        "valor_compra": 18,
+        "codigo_producto": "0418"
+    },
+    {
+        "valor_compra": 56,
+        "codigo_producto": "0413"
+    },
+    {
+        "valor_compra": 32,
+        "codigo_producto": "0414"
+    },
+    {
+        "valor_compra": 94,
+        "codigo_producto": "0422"
+    },
+    {
+        "valor_compra": 115,
+        "codigo_producto": "0425"
+    },
+    {
+        "valor_compra": 210,
+        "codigo_producto": "0427"
+    },
+    {
+        "valor_compra": 261,
+        "codigo_producto": "0429"
+    },
+    {
+        "valor_compra": 224,
+        "codigo_producto": "0443"
+    },
+    {
+        "valor_compra": 352,
+        "codigo_producto": "0446"
+    },
+    {
+        "valor_compra": 482,
+        "codigo_producto": "0448"
+    },
+    {
+        "valor_compra": 152,
+        "codigo_producto": "0432"
+    },
+    {
+        "valor_compra": 285,
+        "codigo_producto": "0435"
+    },
+    {
+        "valor_compra": 334,
+        "codigo_producto": "0437"
+    },
+    {
+        "valor_compra": 534,
+        "codigo_producto": "0439"
+    },
+    {
+        "valor_compra": 639,
+        "codigo_producto": "0441"
+    },
+    {
+        "valor_compra": 71,
+        "codigo_producto": "0420"
+    },
+    {
+        "valor_compra": 81,
+        "codigo_producto": "0421"
+    },
+    {
+        "valor_compra": 214,
+        "codigo_producto": "0442"
+    },
+    {
+        "valor_compra": 123,
+        "codigo_producto": "0430"
+    },
+    {
+        "valor_compra": 133,
+        "codigo_producto": "0431"
+    },
+    {
+        "valor_compra": 125,
+        "codigo_producto": "0424"
+    },
+    {
+        "valor_compra": 108,
+        "codigo_producto": "0423"
+    },
+    {
+        "valor_compra": 180,
+        "codigo_producto": "0426"
+    },
+    {
+        "valor_compra": 294,
+        "codigo_producto": "0428"
+    },
+    {
+        "valor_compra": 299,
+        "codigo_producto": "0445"
+    },
+    {
+        "valor_compra": 358,
+        "codigo_producto": "0444"
+    },
+    {
+        "valor_compra": 527,
+        "codigo_producto": "0447"
+    },
+    {
+        "valor_compra": 250,
+        "codigo_producto": "0434"
+    },
+    {
+        "valor_compra": 174,
+        "codigo_producto": "0433"
+    },
+    {
+        "valor_compra": 287,
+        "codigo_producto": "0436"
+    },
+    {
+        "valor_compra": 377,
+        "codigo_producto": "0438"
+    },
+    {
+        "valor_compra": 584,
+        "codigo_producto": "0440"
+    },
+    {
+        "valor_compra": 450,
+        "codigo_producto": "0453"
+    },
+    {
+        "valor_compra": 936,
+        "codigo_producto": "0458"
+    },
+    {
+        "valor_compra": 602,
+        "codigo_producto": "0450"
+    },
+    {
+        "valor_compra": 684,
+        "codigo_producto": "0456"
+    },
+    {
+        "valor_compra": 732,
+        "codigo_producto": "0452"
+    },
+    {
+        "valor_compra": 617,
+        "codigo_producto": "0455"
+    },
+    {
+        "valor_compra": 643,
+        "codigo_producto": "0454"
+    },
+    {
+        "valor_compra": 805,
+        "codigo_producto": "0457"
+    },
+    {
+        "valor_compra": 811,
+        "codigo_producto": "0449"
+    },
+    {
+        "valor_compra": 998,
+        "codigo_producto": "0451"
+    },
+    {
+        "valor_compra": 1066,
+        "codigo_producto": "0380"
+    },
+    {
+        "valor_compra": 226,
+        "codigo_producto": "0371"
+    },
+    {
+        "valor_compra": 198,
+        "codigo_producto": "0373"
+    },
+    {
+        "valor_compra": 302,
+        "codigo_producto": "0375"
+    },
+    {
+        "valor_compra": 516,
+        "codigo_producto": "0377"
+    },
+    {
+        "valor_compra": 938,
+        "codigo_producto": "0378"
+    },
+    {
+        "valor_compra": 1287,
+        "codigo_producto": "0379"
+    },
+    {
+        "valor_compra": 96,
+        "codigo_producto": "0369"
+    },
+    {
+        "valor_compra": 286,
+        "codigo_producto": "0372"
+    },
+    {
+        "valor_compra": 341,
+        "codigo_producto": "0376"
+    },
+    {
+        "valor_compra": 200,
+        "codigo_producto": "0370"
+    },
+    {
+        "valor_compra": 274,
+        "codigo_producto": "0374"
+    },
+    {
+        "valor_compra": 40,
+        "codigo_producto": "0391"
+    },
+    {
+        "valor_compra": 25,
+        "codigo_producto": "0387"
+    },
+    {
+        "valor_compra": 31,
+        "codigo_producto": "0390"
+    },
+    {
+        "valor_compra": 45,
+        "codigo_producto": "0389"
+    },
+    {
+        "valor_compra": 37,
+        "codigo_producto": "0388"
+    },
+    {
+        "valor_compra": 49,
+        "codigo_producto": "0392"
+    },
+    {
+        "valor_compra": 155,
+        "codigo_producto": "0381"
+    },
+    {
+        "valor_compra": 539,
+        "codigo_producto": "0382"
+    },
+    {
+        "valor_compra": 146,
+        "codigo_producto": "0386"
+    },
+    {
+        "valor_compra": 47,
+        "codigo_producto": "0383"
+    },
+    {
+        "valor_compra": 65,
+        "codigo_producto": "0385"
+    },
+    {
+        "valor_compra": 70,
+        "codigo_producto": "0384"
+    },
+    {
+        "valor_compra": 266,
+        "codigo_producto": "0367"
+    },
+    {
+        "valor_compra": 48,
+        "codigo_producto": "0368"
+    },
+    {
+        "valor_compra": 145,
+        "codigo_producto": "0462"
+    },
+    {
+        "valor_compra": 197,
+        "codigo_producto": "0464"
+    },
+    {
+        "valor_compra": 231,
+        "codigo_producto": "0478"
+    },
+    {
+        "valor_compra": 353,
+        "codigo_producto": "0481"
+    },
+    {
+        "valor_compra": 675,
+        "codigo_producto": "0483"
+    },
+    {
+        "valor_compra": 601,
+        "codigo_producto": "0485"
+    },
+    {
+        "valor_compra": 118,
+        "codigo_producto": "0459"
+    },
+    {
+        "valor_compra": 156,
+        "codigo_producto": "0467"
+    },
+    {
+        "valor_compra": 227,
+        "codigo_producto": "0470"
+    },
+    {
+        "valor_compra": 308,
+        "codigo_producto": "0472"
+    },
+    {
+        "valor_compra": 340,
+        "codigo_producto": "0474"
+    },
+    {
+        "valor_compra": 412,
+        "codigo_producto": "0476"
+    },
+    {
+        "valor_compra": 257,
+        "codigo_producto": "0466"
+    },
+    {
+        "valor_compra": 279,
+        "codigo_producto": "0471"
+    },
+    {
+        "valor_compra": 375,
+        "codigo_producto": "0475"
+    },
+    {
+        "valor_compra": 116,
+        "codigo_producto": "0461"
+    },
+    {
+        "valor_compra": 104,
+        "codigo_producto": "0460"
+    },
+    {
+        "valor_compra": 168,
+        "codigo_producto": "0463"
+    },
+    {
+        "valor_compra": 229,
+        "codigo_producto": "0465"
+    },
+    {
+        "valor_compra": 292,
+        "codigo_producto": "0480"
+    },
+    {
+        "valor_compra": 262,
+        "codigo_producto": "0479"
+    },
+    {
+        "valor_compra": 413,
+        "codigo_producto": "0482"
+    },
+    {
+        "valor_compra": 785,
+        "codigo_producto": "0484"
+    },
+    {
+        "valor_compra": 669,
+        "codigo_producto": "0486"
+    },
+    {
+        "valor_compra": 834,
+        "codigo_producto": "0487"
+    },
+    {
+        "valor_compra": 188,
+        "codigo_producto": "0469"
+    },
+    {
+        "valor_compra": 168,
+        "codigo_producto": "0468"
+    },
+    {
+        "valor_compra": 128,
+        "codigo_producto": "0477"
+    },
+    {
+        "valor_compra": 358,
+        "codigo_producto": "0473"
+    },
+    {
+        "valor_compra": 1084,
+        "codigo_producto": "0493"
+    },
+    {
+        "valor_compra": 459,
+        "codigo_producto": "0496"
+    },
+    {
+        "valor_compra": 914,
+        "codigo_producto": "0494"
+    },
+    {
+        "valor_compra": 1429,
+        "codigo_producto": "0490"
+    },
+    {
+        "valor_compra": 381,
+        "codigo_producto": "0492"
+    },
+    {
+        "valor_compra": 653,
+        "codigo_producto": "0491"
+    },
+    {
+        "valor_compra": 435,
+        "codigo_producto": "0495"
+    },
+    {
+        "valor_compra": 605,
+        "codigo_producto": "0489"
+    },
+    {
+        "valor_compra": 508,
+        "codigo_producto": "0488"
+    },
+    {
+        "valor_compra": 771,
+        "codigo_producto": "0499"
+    },
+    {
+        "valor_compra": 749,
+        "codigo_producto": "0497"
+    },
+    {
+        "valor_compra": 435,
+        "codigo_producto": "0498"
+    },
+    {
+        "valor_compra": 1300,
+        "codigo_producto": "0500"
+    },
+    {
+        "valor_compra": 2218,
+        "codigo_producto": "0501"
+    },
+    {
+        "valor_compra": 157,
+        "codigo_producto": "0502"
+    },
+    {
+        "valor_compra": 183,
+        "codigo_producto": "0503"
+    },
+    {
+        "valor_compra": 21,
+        "codigo_producto": "0506"
+    },
+    {
+        "valor_compra": 66,
+        "codigo_producto": "0507"
+    },
+    {
+        "valor_compra": 16,
+        "codigo_producto": "0505"
+    },
+    {
+        "valor_compra": 138,
+        "codigo_producto": "0508"
+    },
+    {
+        "valor_compra": 238,
+        "codigo_producto": "0504"
+    },
+    {
+        "valor_compra": 28,
+        "codigo_producto": "0511"
+    },
+    {
+        "valor_compra": 89,
+        "codigo_producto": "0516"
+    },
+    {
+        "valor_compra": 48,
+        "codigo_producto": "0514"
+    },
+    {
+        "valor_compra": 18,
+        "codigo_producto": "0509"
+    },
+    {
+        "valor_compra": 32,
+        "codigo_producto": "0512"
+    },
+    {
+        "valor_compra": 13,
+        "codigo_producto": "0510"
+    },
+    {
+        "valor_compra": 23,
+        "codigo_producto": "0513"
+    },
+    {
+        "valor_compra": 33,
+        "codigo_producto": "0517"
+    },
+    {
+        "valor_compra": 118,
+        "codigo_producto": "0522"
+    },
+    {
+        "valor_compra": 58,
+        "codigo_producto": "0520"
+    },
+    {
+        "valor_compra": 54,
+        "codigo_producto": "0525"
+    },
+    {
+        "valor_compra": 50,
+        "codigo_producto": "0519"
+    },
+    {
+        "valor_compra": 104,
+        "codigo_producto": "0521"
+    },
+    {
+        "valor_compra": 52,
+        "codigo_producto": "0524"
+    },
+    {
+        "valor_compra": 35,
+        "codigo_producto": "0523"
+    },
+    {
+        "valor_compra": 30,
+        "codigo_producto": "0518"
+    },
+    {
+        "valor_compra": 64,
+        "codigo_producto": "0515"
+    },
+    {
+        "valor_compra": 3800,
+        "codigo_producto": "0633"
+    },
+    {
+        "valor_compra": 278,
+        "codigo_producto": "0526"
+    },
+    {
+        "valor_compra": 157,
+        "codigo_producto": "0531"
+    },
+    {
+        "valor_compra": 81,
+        "codigo_producto": "0530"
+    },
+    {
+        "valor_compra": 28,
+        "codigo_producto": "0527"
+    },
+    {
+        "valor_compra": 81,
+        "codigo_producto": "0529"
+    },
+    {
+        "valor_compra": 54,
+        "codigo_producto": "0528"
+    },
+    {
+        "valor_compra": 16,
+        "codigo_producto": "0544"
+    },
+    {
+        "valor_compra": 48,
+        "codigo_producto": "0534"
+    },
+    {
+        "valor_compra": 59,
+        "codigo_producto": "0539"
+    },
+    {
+        "valor_compra": 74,
+        "codigo_producto": "0542"
+    },
+    {
+        "valor_compra": 86,
+        "codigo_producto": "0545"
+    },
+    {
+        "valor_compra": 131,
+        "codigo_producto": "0546"
+    },
+    {
+        "valor_compra": 159,
+        "codigo_producto": "0548"
+    },
+    {
+        "valor_compra": 175,
+        "codigo_producto": "0549"
+    },
+    {
+        "valor_compra": 256,
+        "codigo_producto": "0551"
+    },
+    {
+        "valor_compra": 81,
+        "codigo_producto": "0536"
+    },
+    {
+        "valor_compra": 142,
+        "codigo_producto": "0547"
+    },
+    {
+        "valor_compra": 330,
+        "codigo_producto": "0554"
+    },
+    {
+        "valor_compra": 298,
+        "codigo_producto": "0553"
+    },
+    {
+        "valor_compra": 362,
+        "codigo_producto": "0555"
+    },
+    {
+        "valor_compra": 236,
+        "codigo_producto": "0550"
+    },
+    {
+        "valor_compra": 34,
+        "codigo_producto": "0532"
+    },
+    {
+        "valor_compra": 39,
+        "codigo_producto": "0533"
+    },
+    {
+        "valor_compra": 28,
+        "codigo_producto": "0537"
+    },
+    {
+        "valor_compra": 34,
+        "codigo_producto": "0538"
+    },
+    {
+        "valor_compra": 275,
+        "codigo_producto": "0552"
+    },
+    {
+        "valor_compra": 66,
+        "codigo_producto": "0535"
+    },
+    {
+        "valor_compra": 53,
+        "codigo_producto": "0541"
+    },
+    {
+        "valor_compra": 47,
+        "codigo_producto": "0540"
+    },
+    {
+        "valor_compra": 18,
+        "codigo_producto": "0543"
+    },
+    {
+        "valor_compra": 35,
+        "codigo_producto": "0575"
+    },
+    {
+        "valor_compra": 22,
+        "codigo_producto": "0579"
+    },
+    {
+        "valor_compra": 25,
+        "codigo_producto": "0581"
+    },
+    {
+        "valor_compra": 69,
+        "codigo_producto": "0584"
+    },
+    {
+        "valor_compra": 13,
+        "codigo_producto": "0573"
+    },
+    {
+        "valor_compra": 60,
+        "codigo_producto": "0574"
+    },
+    {
+        "valor_compra": 36,
+        "codigo_producto": "0577"
+    },
+    {
+        "valor_compra": 43,
+        "codigo_producto": "0578"
+    },
+    {
+        "valor_compra": 33,
+        "codigo_producto": "0576"
+    },
+    {
+        "valor_compra": 15,
+        "codigo_producto": "0582"
+    },
+    {
+        "valor_compra": 59,
+        "codigo_producto": "0583"
+    },
+    {
+        "valor_compra": 18,
+        "codigo_producto": "0580"
+    },
+    {
+        "valor_compra": 456,
+        "codigo_producto": "0556"
+    },
+    {
+        "valor_compra": 520,
+        "codigo_producto": "0557"
+    },
+    {
+        "valor_compra": 655,
+        "codigo_producto": "0560"
+    },
+    {
+        "valor_compra": 520,
+        "codigo_producto": "0559"
+    },
+    {
+        "valor_compra": 65,
+        "codigo_producto": "0561"
+    },
+    {
+        "valor_compra": 97,
+        "codigo_producto": "0563"
+    },
+    {
+        "valor_compra": 128,
+        "codigo_producto": "0564"
+    },
+    {
+        "valor_compra": 39,
+        "codigo_producto": "0570"
+    },
+    {
+        "valor_compra": 118,
+        "codigo_producto": "0565"
+    },
+    {
+        "valor_compra": 169,
+        "codigo_producto": "0569"
+    },
+    {
+        "valor_compra": 475,
+        "codigo_producto": "0558"
+    },
+    {
+        "valor_compra": 68,
+        "codigo_producto": "0567"
+    },
+    {
+        "valor_compra": 81,
+        "codigo_producto": "0562"
+    },
+    {
+        "valor_compra": 37,
+        "codigo_producto": "0572"
+    },
+    {
+        "valor_compra": 58,
+        "codigo_producto": "0571"
+    },
+    {
+        "valor_compra": 96,
+        "codigo_producto": "0566"
+    },
+    {
+        "valor_compra": 92,
+        "codigo_producto": "0568"
+    },
+    {
+        "valor_compra": 51,
+        "codigo_producto": "0594"
+    },
+    {
+        "valor_compra": 82,
+        "codigo_producto": "0595"
+    },
+    {
+        "valor_compra": 77,
+        "codigo_producto": "0597"
+    },
+    {
+        "valor_compra": 83,
+        "codigo_producto": "0598"
+    },
+    {
+        "valor_compra": 63,
+        "codigo_producto": "0601"
+    },
+    {
+        "valor_compra": 88,
+        "codigo_producto": "0599"
+    },
+    {
+        "valor_compra": 136,
+        "codigo_producto": "0602"
+    },
+    {
+        "valor_compra": 65,
+        "codigo_producto": "0596"
+    },
+    {
+        "valor_compra": 97,
+        "codigo_producto": "0600"
+    },
+    {
+        "valor_compra": 110,
+        "codigo_producto": "0587"
+    },
+    {
+        "valor_compra": 144,
+        "codigo_producto": "0589"
+    },
+    {
+        "valor_compra": 130,
+        "codigo_producto": "0590"
+    },
+    {
+        "valor_compra": 207,
+        "codigo_producto": "0593"
+    },
+    {
+        "valor_compra": 90,
+        "codigo_producto": "0586"
+    },
+    {
+        "valor_compra": 80,
+        "codigo_producto": "0585"
+    },
+    {
+        "valor_compra": 108,
+        "codigo_producto": "0588"
+    },
+    {
+        "valor_compra": 174,
+        "codigo_producto": "0592"
+    },
+    {
+        "valor_compra": 153,
+        "codigo_producto": "0591"
+    },
+    {
+        "valor_compra": 37,
+        "codigo_producto": "0609"
+    },
+    {
+        "valor_compra": 75,
+        "codigo_producto": "0610"
+    },
+    {
+        "valor_compra": 176,
+        "codigo_producto": "0611"
+    },
+    {
+        "valor_compra": 25,
+        "codigo_producto": "0603"
+    },
+    {
+        "valor_compra": 59,
+        "codigo_producto": "0604"
+    },
+    {
+        "valor_compra": 125,
+        "codigo_producto": "0606"
+    },
+    {
+        "valor_compra": 329,
+        "codigo_producto": "0607"
+    },
+    {
+        "valor_compra": 28,
+        "codigo_producto": "0608"
+    },
+    {
+        "valor_compra": 155,
+        "codigo_producto": "0605"
+    },
+    {
+        "valor_compra": 50,
+        "codigo_producto": "0612"
+    },
+    {
+        "valor_compra": 109,
+        "codigo_producto": "0613"
+    },
+    {
+        "valor_compra": 10982,
+        "codigo_producto": "0624"
+    },
+    {
+        "valor_compra": 2535,
+        "codigo_producto": "0620"
+    },
+    {
+        "valor_compra": 5719,
+        "codigo_producto": "0623"
+    },
+    {
+        "valor_compra": 4648,
+        "codigo_producto": "0621"
+    },
+    {
+        "valor_compra": 8602,
+        "codigo_producto": "0622"
+    },
+    {
+        "valor_compra": 71,
+        "codigo_producto": "0629"
+    },
+    {
+        "valor_compra": 14,
+        "codigo_producto": "0626"
+    },
+    {
+        "valor_compra": 34,
+        "codigo_producto": "0628"
+    },
+    {
+        "valor_compra": 7,
+        "codigo_producto": "O625"
+    },
+    {
+        "valor_compra": 23,
+        "codigo_producto": "0627"
+    },
+    {
+        "valor_compra": 7,
+        "codigo_producto": "0625"
+    },
+    {
+        "valor_compra": 304,
+        "codigo_producto": "0617"
+    },
+    {
+        "valor_compra": 61,
+        "codigo_producto": "0618"
+    },
+    {
+        "valor_compra": 127,
+        "codigo_producto": "0619"
+    },
+    {
+        "valor_compra": 81,
+        "codigo_producto": "0616"
+    },
+    {
+        "valor_compra": 24,
+        "codigo_producto": "0614"
+    },
+    {
+        "valor_compra": 160,
+        "codigo_producto": "0615"
+    },
+    {
+        "valor_compra": 5300,
+        "codigo_producto": "0635"
+    },
+    {
+        "valor_compra": 1800,
+        "codigo_producto": "0632"
+    },
+    {
+        "valor_compra": 3700,
+        "codigo_producto": "0638"
+    },
+    {
+        "valor_compra": 6700,
+        "codigo_producto": "0637"
+    },
+    {
+        "valor_compra": 5300,
+        "codigo_producto": "0636"
+    },
+    {
+        "valor_compra": 2400,
+        "codigo_producto": "0634"
+    },
+    {
+        "valor_compra": 6667,
+        "codigo_producto": "0630"
+    },
+    {
+        "valor_compra": 6667,
+        "codigo_producto": "0631"
+    }
+]

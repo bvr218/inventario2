@@ -1,0 +1,2549 @@
+[90m= [39m"""
+  [32m[[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 29379,[39m\n
+  [32m        "codigo_producto": "0198"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 15979,[39m\n
+  [32m        "codigo_producto": "0200"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 10632,[39m\n
+  [32m        "codigo_producto": "063"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 654,[39m\n
+  [32m        "codigo_producto": "021"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 25704,[39m\n
+  [32m        "codigo_producto": "020"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 106802,[39m\n
+  [32m        "codigo_producto": "011"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 243950,[39m\n
+  [32m        "codigo_producto": "012"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 138873,[39m\n
+  [32m        "codigo_producto": "013"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 257516,[39m\n
+  [32m        "codigo_producto": "015"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 228182,[39m\n
+  [32m        "codigo_producto": "014"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 120725,[39m\n
+  [32m        "codigo_producto": "010"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 210213,[39m\n
+  [32m        "codigo_producto": "017"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 147084,[39m\n
+  [32m        "codigo_producto": "016"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1,[39m\n
+  [32m        "codigo_producto": "022"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 10115,[39m\n
+  [32m        "codigo_producto": "018"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 3332,[39m\n
+  [32m        "codigo_producto": "019"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 5890,[39m\n
+  [32m        "codigo_producto": "06"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 5890,[39m\n
+  [32m        "codigo_producto": "07"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 6069,[39m\n
+  [32m        "codigo_producto": "08"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2975,[39m\n
+  [32m        "codigo_producto": "04"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 3391,[39m\n
+  [32m        "codigo_producto": "01"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2975,[39m\n
+  [32m        "codigo_producto": "03"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 3272,[39m\n
+  [32m        "codigo_producto": "05"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 6366,[39m\n
+  [32m        "codigo_producto": "09"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2975,[39m\n
+  [32m        "codigo_producto": "02"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 655,[39m\n
+  [32m        "codigo_producto": "023"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1622,[39m\n
+  [32m        "codigo_producto": "025"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 939,[39m\n
+  [32m        "codigo_producto": "027"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1936,[39m\n
+  [32m        "codigo_producto": "026"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 285,[39m\n
+  [32m        "codigo_producto": "029"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 217,[39m\n
+  [32m        "codigo_producto": "028"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 788,[39m\n
+  [32m        "codigo_producto": "024"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2603,[39m\n
+  [32m        "codigo_producto": "058"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 3855,[39m\n
+  [32m        "codigo_producto": "060"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 35,[39m\n
+  [32m        "codigo_producto": "067"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 51,[39m\n
+  [32m        "codigo_producto": "068"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2891,[39m\n
+  [32m        "codigo_producto": "061"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 703,[39m\n
+  [32m        "codigo_producto": "036"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1407,[39m\n
+  [32m        "codigo_producto": "035"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 789,[39m\n
+  [32m        "codigo_producto": "031"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 614,[39m\n
+  [32m        "codigo_producto": "032"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 285,[39m\n
+  [32m        "codigo_producto": "033"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 349,[39m\n
+  [32m        "codigo_producto": "030"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1044,[39m\n
+  [32m        "codigo_producto": "034"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 161,[39m\n
+  [32m        "codigo_producto": "075"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 120,[39m\n
+  [32m        "codigo_producto": "073"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 29,[39m\n
+  [32m        "codigo_producto": "074"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 9887,[39m\n
+  [32m        "codigo_producto": "064"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 24,[39m\n
+  [32m        "codigo_producto": "066"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18,[39m\n
+  [32m        "codigo_producto": "065"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 42,[39m\n
+  [32m        "codigo_producto": "071"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 64,[39m\n
+  [32m        "codigo_producto": "072"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 28,[39m\n
+  [32m        "codigo_producto": "070"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 13598,[39m\n
+  [32m        "codigo_producto": "069"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 8051,[39m\n
+  [32m        "codigo_producto": "062"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2057,[39m\n
+  [32m        "codigo_producto": "059"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 25446,[39m\n
+  [32m        "codigo_producto": "077"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 52024,[39m\n
+  [32m        "codigo_producto": "079"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 35059,[39m\n
+  [32m        "codigo_producto": "078"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 13874,[39m\n
+  [32m        "codigo_producto": "076"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 218,[39m\n
+  [32m        "codigo_producto": "089"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2786,[39m\n
+  [32m        "codigo_producto": "0105"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1160,[39m\n
+  [32m        "codigo_producto": "0100"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 10756,[39m\n
+  [32m        "codigo_producto": "087"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 506,[39m\n
+  [32m        "codigo_producto": "0107"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1260,[39m\n
+  [32m        "codigo_producto": "0108"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 3395,[39m\n
+  [32m        "codigo_producto": "085"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 4819,[39m\n
+  [32m        "codigo_producto": "056"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2786,[39m\n
+  [32m        "codigo_producto": "0102"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 3855,[39m\n
+  [32m        "codigo_producto": "057"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2786,[39m\n
+  [32m        "codigo_producto": "0103"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2786,[39m\n
+  [32m        "codigo_producto": "0104"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7301,[39m\n
+  [32m        "codigo_producto": "086"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1160,[39m\n
+  [32m        "codigo_producto": "0101"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2930,[39m\n
+  [32m        "codigo_producto": "092"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1750,[39m\n
+  [32m        "codigo_producto": "091"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2753,[39m\n
+  [32m        "codigo_producto": "080"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2233,[39m\n
+  [32m        "codigo_producto": "090"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1598,[39m\n
+  [32m        "codigo_producto": "083"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1980,[39m\n
+  [32m        "codigo_producto": "096"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1160,[39m\n
+  [32m        "codigo_producto": "099"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1823,[39m\n
+  [32m        "codigo_producto": "098"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1823,[39m\n
+  [32m        "codigo_producto": "097"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 996,[39m\n
+  [32m        "codigo_producto": "081"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 905,[39m\n
+  [32m        "codigo_producto": "088"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 398,[39m\n
+  [32m        "codigo_producto": "093"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 580,[39m\n
+  [32m        "codigo_producto": "084"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 615,[39m\n
+  [32m        "codigo_producto": "095"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 615,[39m\n
+  [32m        "codigo_producto": "094"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 308,[39m\n
+  [32m        "codigo_producto": "0106"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 247,[39m\n
+  [32m        "codigo_producto": "082"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 842,[39m\n
+  [32m        "codigo_producto": "0132"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1604,[39m\n
+  [32m        "codigo_producto": "0130"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 525,[39m\n
+  [32m        "codigo_producto": "0131"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 20512,[39m\n
+  [32m        "codigo_producto": "0137"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 936,[39m\n
+  [32m        "codigo_producto": "0120"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2327,[39m\n
+  [32m        "codigo_producto": "0122"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 4680,[39m\n
+  [32m        "codigo_producto": "0125"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 31249,[39m\n
+  [32m        "codigo_producto": "0126"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18268,[39m\n
+  [32m        "codigo_producto": "0112"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2327,[39m\n
+  [32m        "codigo_producto": "0123"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 3397,[39m\n
+  [32m        "codigo_producto": "0136"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 875,[39m\n
+  [32m        "codigo_producto": "0133"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 816,[39m\n
+  [32m        "codigo_producto": "0118"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2520,[39m\n
+  [32m        "codigo_producto": "0110"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 936,[39m\n
+  [32m        "codigo_producto": "0134"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 6385,[39m\n
+  [32m        "codigo_producto": "0116"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1917,[39m\n
+  [32m        "codigo_producto": "0115"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 3893,[39m\n
+  [32m        "codigo_producto": "0113"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 816,[39m\n
+  [32m        "codigo_producto": "0119"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1260,[39m\n
+  [32m        "codigo_producto": "0109"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2520,[39m\n
+  [32m        "codigo_producto": "0111"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 4680,[39m\n
+  [32m        "codigo_producto": "0124"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 510,[39m\n
+  [32m        "codigo_producto": "0117"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 446,[39m\n
+  [32m        "codigo_producto": "0129"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 936,[39m\n
+  [32m        "codigo_producto": "0121"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 746,[39m\n
+  [32m        "codigo_producto": "0128"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 318,[39m\n
+  [32m        "codigo_producto": "0114"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 252,[39m\n
+  [32m        "codigo_producto": "0127"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 635,[39m\n
+  [32m        "codigo_producto": "0152"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 4326,[39m\n
+  [32m        "codigo_producto": "0159"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 287,[39m\n
+  [32m        "codigo_producto": "0150"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1037,[39m\n
+  [32m        "codigo_producto": "0157"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2299,[39m\n
+  [32m        "codigo_producto": "0199"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 660,[39m\n
+  [32m        "codigo_producto": "0164"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 3042,[39m\n
+  [32m        "codigo_producto": "0166"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 729,[39m\n
+  [32m        "codigo_producto": "0160"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 82848,[39m\n
+  [32m        "codigo_producto": "0201"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 4178,[39m\n
+  [32m        "codigo_producto": "0140"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1602,[39m\n
+  [32m        "codigo_producto": "0138"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1895,[39m\n
+  [32m        "codigo_producto": "0142"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 69153,[39m\n
+  [32m        "codigo_producto": "0146"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 35733,[39m\n
+  [32m        "codigo_producto": "0147"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 22088,[39m\n
+  [32m        "codigo_producto": "0145"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7292,[39m\n
+  [32m        "codigo_producto": "0141"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 4313,[39m\n
+  [32m        "codigo_producto": "0154"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 696,[39m\n
+  [32m        "codigo_producto": "0153"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1944,[39m\n
+  [32m        "codigo_producto": "0139"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7680,[39m\n
+  [32m        "codigo_producto": "0144"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 3748,[39m\n
+  [32m        "codigo_producto": "0143"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1316,[39m\n
+  [32m        "codigo_producto": "0148"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 420,[39m\n
+  [32m        "codigo_producto": "0151"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2002,[39m\n
+  [32m        "codigo_producto": "0156"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1914,[39m\n
+  [32m        "codigo_producto": "0163"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7692,[39m\n
+  [32m        "codigo_producto": "0149"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2959,[39m\n
+  [32m        "codigo_producto": "0155"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 255,[39m\n
+  [32m        "codigo_producto": "0158"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 182,[39m\n
+  [32m        "codigo_producto": "0165"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 364,[39m\n
+  [32m        "codigo_producto": "0167"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 310,[39m\n
+  [32m        "codigo_producto": "0179"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 689,[39m\n
+  [32m        "codigo_producto": "0177"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 8156,[39m\n
+  [32m        "codigo_producto": "0172"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 3899,[39m\n
+  [32m        "codigo_producto": "0169"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 6599,[39m\n
+  [32m        "codigo_producto": "0175"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 46667,[39m\n
+  [32m        "codigo_producto": "0176"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 4707,[39m\n
+  [32m        "codigo_producto": "0168"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1140,[39m\n
+  [32m        "codigo_producto": "0173"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 216,[39m\n
+  [32m        "codigo_producto": "0178"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1895,[39m\n
+  [32m        "codigo_producto": "0194"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 4439,[39m\n
+  [32m        "codigo_producto": "0195"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1919,[39m\n
+  [32m        "codigo_producto": "0193"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 203,[39m\n
+  [32m        "codigo_producto": "0183"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2158,[39m\n
+  [32m        "codigo_producto": "0184"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1317,[39m\n
+  [32m        "codigo_producto": "0181"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 963,[39m\n
+  [32m        "codigo_producto": "0182"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 525,[39m\n
+  [32m        "codigo_producto": "0180"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 564,[39m\n
+  [32m        "codigo_producto": "0189"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1199,[39m\n
+  [32m        "codigo_producto": "0190"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1650,[39m\n
+  [32m        "codigo_producto": "0191"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7680,[39m\n
+  [32m        "codigo_producto": "0192"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 431,[39m\n
+  [32m        "codigo_producto": "0188"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 4195,[39m\n
+  [32m        "codigo_producto": "0186"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 9647,[39m\n
+  [32m        "codigo_producto": "0185"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 4629,[39m\n
+  [32m        "codigo_producto": "0187"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1319,[39m\n
+  [32m        "codigo_producto": "0174"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1506,[39m\n
+  [32m        "codigo_producto": "0170"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 421,[39m\n
+  [32m        "codigo_producto": "0171"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 69230,[39m\n
+  [32m        "codigo_producto": "0197"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7680,[39m\n
+  [32m        "codigo_producto": "0196"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 19255,[39m\n
+  [32m        "codigo_producto": "0205"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1922,[39m\n
+  [32m        "codigo_producto": "0202"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 25413,[39m\n
+  [32m        "codigo_producto": "0204"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 21007,[39m\n
+  [32m        "codigo_producto": "0203"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 82495,[39m\n
+  [32m        "codigo_producto": "055"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 8729,[39m\n
+  [32m        "codigo_producto": "040"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7146,[39m\n
+  [32m        "codigo_producto": "046"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7146,[39m\n
+  [32m        "codigo_producto": "044"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7146,[39m\n
+  [32m        "codigo_producto": "039"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 8729,[39m\n
+  [32m        "codigo_producto": "042"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7146,[39m\n
+  [32m        "codigo_producto": "045"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 8729,[39m\n
+  [32m        "codigo_producto": "043"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7146,[39m\n
+  [32m        "codigo_producto": "047"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 12656,[39m\n
+  [32m        "codigo_producto": "038"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7146,[39m\n
+  [32m        "codigo_producto": "041"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 8690,[39m\n
+  [32m        "codigo_producto": "037"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 25588,[39m\n
+  [32m        "codigo_producto": "0206"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 16670,[39m\n
+  [32m        "codigo_producto": "0214"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7026,[39m\n
+  [32m        "codigo_producto": "0208"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 11407,[39m\n
+  [32m        "codigo_producto": "0215"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2797,[39m\n
+  [32m        "codigo_producto": "0209"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 5385,[39m\n
+  [32m        "codigo_producto": "0218"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2797,[39m\n
+  [32m        "codigo_producto": "0213"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 3462,[39m\n
+  [32m        "codigo_producto": "0216"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2700,[39m\n
+  [32m        "codigo_producto": "0217"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 3063,[39m\n
+  [32m        "codigo_producto": "0220"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 4795,[39m\n
+  [32m        "codigo_producto": "0211"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 4318,[39m\n
+  [32m        "codigo_producto": "0212"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2797,[39m\n
+  [32m        "codigo_producto": "0219"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 3825,[39m\n
+  [32m        "codigo_producto": "0210"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 9531,[39m\n
+  [32m        "codigo_producto": "0221"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2979,[39m\n
+  [32m        "codigo_producto": "0222"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 10888,[39m\n
+  [32m        "codigo_producto": "0207"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7144,[39m\n
+  [32m        "codigo_producto": "048"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7146,[39m\n
+  [32m        "codigo_producto": "049"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18996,[39m\n
+  [32m        "codigo_producto": "050"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 76,[39m\n
+  [32m        "codigo_producto": "052"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 39,[39m\n
+  [32m        "codigo_producto": "051"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 59,[39m\n
+  [32m        "codigo_producto": "053"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 27760,[39m\n
+  [32m        "codigo_producto": "054"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 199901,[39m\n
+  [32m        "codigo_producto": "0233"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 199901,[39m\n
+  [32m        "codigo_producto": "0234"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 195032,[39m\n
+  [32m        "codigo_producto": "0235"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7354,[39m\n
+  [32m        "codigo_producto": "0236"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7354,[39m\n
+  [32m        "codigo_producto": "0238"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7354,[39m\n
+  [32m        "codigo_producto": "0237"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7659,[39m\n
+  [32m        "codigo_producto": "0240"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7659,[39m\n
+  [32m        "codigo_producto": "0242"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7659,[39m\n
+  [32m        "codigo_producto": "0241"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7359,[39m\n
+  [32m        "codigo_producto": "0239"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 5662,[39m\n
+  [32m        "codigo_producto": "0224"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2754,[39m\n
+  [32m        "codigo_producto": "0223"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 3699,[39m\n
+  [32m        "codigo_producto": "0225"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1619,[39m\n
+  [32m        "codigo_producto": "0227"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 4103,[39m\n
+  [32m        "codigo_producto": "0230"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 6278,[39m\n
+  [32m        "codigo_producto": "0231"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 10092,[39m\n
+  [32m        "codigo_producto": "0232"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 13230,[39m\n
+  [32m        "codigo_producto": "0226"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1890,[39m\n
+  [32m        "codigo_producto": "0228"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2964,[39m\n
+  [32m        "codigo_producto": "0229"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 9317,[39m\n
+  [32m        "codigo_producto": "0243"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7679,[39m\n
+  [32m        "codigo_producto": "0244"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7697,[39m\n
+  [32m        "codigo_producto": "0247"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 6799,[39m\n
+  [32m        "codigo_producto": "0249"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 6799,[39m\n
+  [32m        "codigo_producto": "0253"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7056,[39m\n
+  [32m        "codigo_producto": "0246"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 5144,[39m\n
+  [32m        "codigo_producto": "0248"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7697,[39m\n
+  [32m        "codigo_producto": "0251"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7056,[39m\n
+  [32m        "codigo_producto": "0250"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7741,[39m\n
+  [32m        "codigo_producto": "0252"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 4475,[39m\n
+  [32m        "codigo_producto": "0262"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1491,[39m\n
+  [32m        "codigo_producto": "0256"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 4475,[39m\n
+  [32m        "codigo_producto": "0261"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 19405,[39m\n
+  [32m        "codigo_producto": "0255"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 8400,[39m\n
+  [32m        "codigo_producto": "0263"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 19400,[39m\n
+  [32m        "codigo_producto": "0265"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2972,[39m\n
+  [32m        "codigo_producto": "0259"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2072,[39m\n
+  [32m        "codigo_producto": "0260"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 6766,[39m\n
+  [32m        "codigo_producto": "0254"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 6799,[39m\n
+  [32m        "codigo_producto": "0264"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 6426,[39m\n
+  [32m        "codigo_producto": "0258"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2731,[39m\n
+  [32m        "codigo_producto": "0257"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 5965,[39m\n
+  [32m        "codigo_producto": "0272"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 3834,[39m\n
+  [32m        "codigo_producto": "0268"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 4506,[39m\n
+  [32m        "codigo_producto": "0269"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 5099,[39m\n
+  [32m        "codigo_producto": "0270"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 5574,[39m\n
+  [32m        "codigo_producto": "0271"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7106,[39m\n
+  [32m        "codigo_producto": "0267"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 9838,[39m\n
+  [32m        "codigo_producto": "0266"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 5833,[39m\n
+  [32m        "codigo_producto": "0245"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18115,[39m\n
+  [32m        "codigo_producto": "0282"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18115,[39m\n
+  [32m        "codigo_producto": "0279"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18115,[39m\n
+  [32m        "codigo_producto": "0280"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18115,[39m\n
+  [32m        "codigo_producto": "0281"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 26570,[39m\n
+  [32m        "codigo_producto": "0287"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2358,[39m\n
+  [32m        "codigo_producto": "0284"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2846,[39m\n
+  [32m        "codigo_producto": "0285"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1964,[39m\n
+  [32m        "codigo_producto": "0283"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 651,[39m\n
+  [32m        "codigo_producto": "0286"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 17758,[39m\n
+  [32m        "codigo_producto": "0299"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 15982,[39m\n
+  [32m        "codigo_producto": "0297"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 12326,[39m\n
+  [32m        "codigo_producto": "0298"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 16065,[39m\n
+  [32m        "codigo_producto": "0296"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 14781,[39m\n
+  [32m        "codigo_producto": "0295"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18861,[39m\n
+  [32m        "codigo_producto": "0291"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 40799,[39m\n
+  [32m        "codigo_producto": "0293"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18473,[39m\n
+  [32m        "codigo_producto": "0294"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 60401,[39m\n
+  [32m        "codigo_producto": "0292"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7922,[39m\n
+  [32m        "codigo_producto": "0300"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 8156,[39m\n
+  [32m        "codigo_producto": "0301"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2323,[39m\n
+  [32m        "codigo_producto": "0275"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1922,[39m\n
+  [32m        "codigo_producto": "0274"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 3781,[39m\n
+  [32m        "codigo_producto": "0276"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 25413,[39m\n
+  [32m        "codigo_producto": "0290"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18686,[39m\n
+  [32m        "codigo_producto": "0288"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 21007,[39m\n
+  [32m        "codigo_producto": "0289"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 13977,[39m\n
+  [32m        "codigo_producto": "0278"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 19036,[39m\n
+  [32m        "codigo_producto": "0277"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 30605,[39m\n
+  [32m        "codigo_producto": "0273"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 11620,[39m\n
+  [32m        "codigo_producto": "0303"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 12537,[39m\n
+  [32m        "codigo_producto": "0304"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 9087,[39m\n
+  [32m        "codigo_producto": "0302"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 222421,[39m\n
+  [32m        "codigo_producto": "0324"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 368537,[39m\n
+  [32m        "codigo_producto": "0323"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18115,[39m\n
+  [32m        "codigo_producto": "0309"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18115,[39m\n
+  [32m        "codigo_producto": "0306"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18115,[39m\n
+  [32m        "codigo_producto": "0307"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18105,[39m\n
+  [32m        "codigo_producto": "0308"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18115,[39m\n
+  [32m        "codigo_producto": "0310"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18115,[39m\n
+  [32m        "codigo_producto": "0314"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18115,[39m\n
+  [32m        "codigo_producto": "0311"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18115,[39m\n
+  [32m        "codigo_producto": "0312"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18115,[39m\n
+  [32m        "codigo_producto": "0313"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 931,[39m\n
+  [32m        "codigo_producto": "0305"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 20499,[39m\n
+  [32m        "codigo_producto": "0317"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 20025,[39m\n
+  [32m        "codigo_producto": "0316"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2504,[39m\n
+  [32m        "codigo_producto": "0315"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 28358,[39m\n
+  [32m        "codigo_producto": "0318"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 6770,[39m\n
+  [32m        "codigo_producto": "0322"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 10939,[39m\n
+  [32m        "codigo_producto": "0319"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 5345,[39m\n
+  [32m        "codigo_producto": "0321"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 10939,[39m\n
+  [32m        "codigo_producto": "0320"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 20228,[39m\n
+  [32m        "codigo_producto": "03217"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 31046,[39m\n
+  [32m        "codigo_producto": "0326"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 24396,[39m\n
+  [32m        "codigo_producto": "0325"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18788,[39m\n
+  [32m        "codigo_producto": "0328"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 25003,[39m\n
+  [32m        "codigo_producto": "0329"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 30647,[39m\n
+  [32m        "codigo_producto": "0330"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 19,[39m\n
+  [32m        "codigo_producto": "0342"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 23,[39m\n
+  [32m        "codigo_producto": "0338"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 40,[39m\n
+  [32m        "codigo_producto": "0341"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 55,[39m\n
+  [32m        "codigo_producto": "0333"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 92,[39m\n
+  [32m        "codigo_producto": "0337"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 19,[39m\n
+  [32m        "codigo_producto": "0343"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 72,[39m\n
+  [32m        "codigo_producto": "0335"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 23,[39m\n
+  [32m        "codigo_producto": "0344"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 20,[39m\n
+  [32m        "codigo_producto": "0345"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 199,[39m\n
+  [32m        "codigo_producto": "0359"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 238,[39m\n
+  [32m        "codigo_producto": "0354"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 368,[39m\n
+  [32m        "codigo_producto": "0356"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 40,[39m\n
+  [32m        "codigo_producto": "0339"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 30,[39m\n
+  [32m        "codigo_producto": "0340"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 159,[39m\n
+  [32m        "codigo_producto": "0357"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 114,[39m\n
+  [32m        "codigo_producto": "0349"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 58,[39m\n
+  [32m        "codigo_producto": "0331"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 98,[39m\n
+  [32m        "codigo_producto": "0336"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 111,[39m\n
+  [32m        "codigo_producto": "0348"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 68,[39m\n
+  [32m        "codigo_producto": "0332"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 77,[39m\n
+  [32m        "codigo_producto": "0334"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 187,[39m\n
+  [32m        "codigo_producto": "0350"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 229,[39m\n
+  [32m        "codigo_producto": "0351"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 290,[39m\n
+  [32m        "codigo_producto": "0352"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 264,[39m\n
+  [32m        "codigo_producto": "0353"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 479,[39m\n
+  [32m        "codigo_producto": "0355"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 230,[39m\n
+  [32m        "codigo_producto": "0358"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 19,[39m\n
+  [32m        "codigo_producto": "0346"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 61,[39m\n
+  [32m        "codigo_producto": "0347"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1632,[39m\n
+  [32m        "codigo_producto": "0366"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2250,[39m\n
+  [32m        "codigo_producto": "0365"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 361,[39m\n
+  [32m        "codigo_producto": "0360"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 460,[39m\n
+  [32m        "codigo_producto": "0361"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 31,[39m\n
+  [32m        "codigo_producto": "0362"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 61,[39m\n
+  [32m        "codigo_producto": "0363"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 78,[39m\n
+  [32m        "codigo_producto": "0364"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 337,[39m\n
+  [32m        "codigo_producto": "0395"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 722,[39m\n
+  [32m        "codigo_producto": "0405"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 647,[39m\n
+  [32m        "codigo_producto": "0406"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1489,[39m\n
+  [32m        "codigo_producto": "0410"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1782,[39m\n
+  [32m        "codigo_producto": "0412"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 700,[39m\n
+  [32m        "codigo_producto": "0401"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 858,[39m\n
+  [32m        "codigo_producto": "0408"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 107,[39m\n
+  [32m        "codigo_producto": "0393"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 254,[39m\n
+  [32m        "codigo_producto": "0402"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 352,[39m\n
+  [32m        "codigo_producto": "0397"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 539,[39m\n
+  [32m        "codigo_producto": "0399"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 170,[39m\n
+  [32m        "codigo_producto": "0396"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 783,[39m\n
+  [32m        "codigo_producto": "0407"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1291,[39m\n
+  [32m        "codigo_producto": "0409"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1587,[39m\n
+  [32m        "codigo_producto": "0411"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 152,[39m\n
+  [32m        "codigo_producto": "0394"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 427,[39m\n
+  [32m        "codigo_producto": "0403"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 616,[39m\n
+  [32m        "codigo_producto": "0404"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 577,[39m\n
+  [32m        "codigo_producto": "0400"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 457,[39m\n
+  [32m        "codigo_producto": "0398"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 23,[39m\n
+  [32m        "codigo_producto": "0415"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 73,[39m\n
+  [32m        "codigo_producto": "0417"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 117,[39m\n
+  [32m        "codigo_producto": "0419"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 31,[39m\n
+  [32m        "codigo_producto": "0416"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18,[39m\n
+  [32m        "codigo_producto": "0418"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 56,[39m\n
+  [32m        "codigo_producto": "0413"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 32,[39m\n
+  [32m        "codigo_producto": "0414"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 94,[39m\n
+  [32m        "codigo_producto": "0422"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 115,[39m\n
+  [32m        "codigo_producto": "0425"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 210,[39m\n
+  [32m        "codigo_producto": "0427"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 261,[39m\n
+  [32m        "codigo_producto": "0429"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 224,[39m\n
+  [32m        "codigo_producto": "0443"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 352,[39m\n
+  [32m        "codigo_producto": "0446"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 482,[39m\n
+  [32m        "codigo_producto": "0448"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 152,[39m\n
+  [32m        "codigo_producto": "0432"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 285,[39m\n
+  [32m        "codigo_producto": "0435"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 334,[39m\n
+  [32m        "codigo_producto": "0437"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 534,[39m\n
+  [32m        "codigo_producto": "0439"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 639,[39m\n
+  [32m        "codigo_producto": "0441"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 71,[39m\n
+  [32m        "codigo_producto": "0420"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 81,[39m\n
+  [32m        "codigo_producto": "0421"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 214,[39m\n
+  [32m        "codigo_producto": "0442"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 123,[39m\n
+  [32m        "codigo_producto": "0430"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 133,[39m\n
+  [32m        "codigo_producto": "0431"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 125,[39m\n
+  [32m        "codigo_producto": "0424"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 108,[39m\n
+  [32m        "codigo_producto": "0423"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 180,[39m\n
+  [32m        "codigo_producto": "0426"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 294,[39m\n
+  [32m        "codigo_producto": "0428"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 299,[39m\n
+  [32m        "codigo_producto": "0445"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 358,[39m\n
+  [32m        "codigo_producto": "0444"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 527,[39m\n
+  [32m        "codigo_producto": "0447"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 250,[39m\n
+  [32m        "codigo_producto": "0434"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 174,[39m\n
+  [32m        "codigo_producto": "0433"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 287,[39m\n
+  [32m        "codigo_producto": "0436"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 377,[39m\n
+  [32m        "codigo_producto": "0438"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 584,[39m\n
+  [32m        "codigo_producto": "0440"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 450,[39m\n
+  [32m        "codigo_producto": "0453"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 936,[39m\n
+  [32m        "codigo_producto": "0458"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 602,[39m\n
+  [32m        "codigo_producto": "0450"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 684,[39m\n
+  [32m        "codigo_producto": "0456"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 732,[39m\n
+  [32m        "codigo_producto": "0452"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 617,[39m\n
+  [32m        "codigo_producto": "0455"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 643,[39m\n
+  [32m        "codigo_producto": "0454"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 805,[39m\n
+  [32m        "codigo_producto": "0457"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 811,[39m\n
+  [32m        "codigo_producto": "0449"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 998,[39m\n
+  [32m        "codigo_producto": "0451"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1066,[39m\n
+  [32m        "codigo_producto": "0380"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 226,[39m\n
+  [32m        "codigo_producto": "0371"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 198,[39m\n
+  [32m        "codigo_producto": "0373"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 302,[39m\n
+  [32m        "codigo_producto": "0375"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 516,[39m\n
+  [32m        "codigo_producto": "0377"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 938,[39m\n
+  [32m        "codigo_producto": "0378"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1287,[39m\n
+  [32m        "codigo_producto": "0379"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 96,[39m\n
+  [32m        "codigo_producto": "0369"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 286,[39m\n
+  [32m        "codigo_producto": "0372"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 341,[39m\n
+  [32m        "codigo_producto": "0376"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 200,[39m\n
+  [32m        "codigo_producto": "0370"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 274,[39m\n
+  [32m        "codigo_producto": "0374"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 40,[39m\n
+  [32m        "codigo_producto": "0391"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 25,[39m\n
+  [32m        "codigo_producto": "0387"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 31,[39m\n
+  [32m        "codigo_producto": "0390"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 45,[39m\n
+  [32m        "codigo_producto": "0389"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 37,[39m\n
+  [32m        "codigo_producto": "0388"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 49,[39m\n
+  [32m        "codigo_producto": "0392"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 155,[39m\n
+  [32m        "codigo_producto": "0381"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 539,[39m\n
+  [32m        "codigo_producto": "0382"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 146,[39m\n
+  [32m        "codigo_producto": "0386"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 47,[39m\n
+  [32m        "codigo_producto": "0383"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 65,[39m\n
+  [32m        "codigo_producto": "0385"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 70,[39m\n
+  [32m        "codigo_producto": "0384"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 266,[39m\n
+  [32m        "codigo_producto": "0367"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 48,[39m\n
+  [32m        "codigo_producto": "0368"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 145,[39m\n
+  [32m        "codigo_producto": "0462"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 197,[39m\n
+  [32m        "codigo_producto": "0464"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 231,[39m\n
+  [32m        "codigo_producto": "0478"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 353,[39m\n
+  [32m        "codigo_producto": "0481"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 675,[39m\n
+  [32m        "codigo_producto": "0483"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 601,[39m\n
+  [32m        "codigo_producto": "0485"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 118,[39m\n
+  [32m        "codigo_producto": "0459"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 156,[39m\n
+  [32m        "codigo_producto": "0467"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 227,[39m\n
+  [32m        "codigo_producto": "0470"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 308,[39m\n
+  [32m        "codigo_producto": "0472"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 340,[39m\n
+  [32m        "codigo_producto": "0474"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 412,[39m\n
+  [32m        "codigo_producto": "0476"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 257,[39m\n
+  [32m        "codigo_producto": "0466"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 279,[39m\n
+  [32m        "codigo_producto": "0471"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 375,[39m\n
+  [32m        "codigo_producto": "0475"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 116,[39m\n
+  [32m        "codigo_producto": "0461"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 104,[39m\n
+  [32m        "codigo_producto": "0460"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 168,[39m\n
+  [32m        "codigo_producto": "0463"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 229,[39m\n
+  [32m        "codigo_producto": "0465"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 292,[39m\n
+  [32m        "codigo_producto": "0480"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 262,[39m\n
+  [32m        "codigo_producto": "0479"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 413,[39m\n
+  [32m        "codigo_producto": "0482"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 785,[39m\n
+  [32m        "codigo_producto": "0484"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 669,[39m\n
+  [32m        "codigo_producto": "0486"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 834,[39m\n
+  [32m        "codigo_producto": "0487"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 188,[39m\n
+  [32m        "codigo_producto": "0469"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 168,[39m\n
+  [32m        "codigo_producto": "0468"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 128,[39m\n
+  [32m        "codigo_producto": "0477"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 358,[39m\n
+  [32m        "codigo_producto": "0473"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1084,[39m\n
+  [32m        "codigo_producto": "0493"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 459,[39m\n
+  [32m        "codigo_producto": "0496"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 914,[39m\n
+  [32m        "codigo_producto": "0494"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1429,[39m\n
+  [32m        "codigo_producto": "0490"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 381,[39m\n
+  [32m        "codigo_producto": "0492"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 653,[39m\n
+  [32m        "codigo_producto": "0491"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 435,[39m\n
+  [32m        "codigo_producto": "0495"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 605,[39m\n
+  [32m        "codigo_producto": "0489"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 508,[39m\n
+  [32m        "codigo_producto": "0488"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 771,[39m\n
+  [32m        "codigo_producto": "0499"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 749,[39m\n
+  [32m        "codigo_producto": "0497"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 435,[39m\n
+  [32m        "codigo_producto": "0498"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1300,[39m\n
+  [32m        "codigo_producto": "0500"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2218,[39m\n
+  [32m        "codigo_producto": "0501"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 157,[39m\n
+  [32m        "codigo_producto": "0502"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 183,[39m\n
+  [32m        "codigo_producto": "0503"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 21,[39m\n
+  [32m        "codigo_producto": "0506"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 66,[39m\n
+  [32m        "codigo_producto": "0507"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 16,[39m\n
+  [32m        "codigo_producto": "0505"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 138,[39m\n
+  [32m        "codigo_producto": "0508"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 238,[39m\n
+  [32m        "codigo_producto": "0504"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 28,[39m\n
+  [32m        "codigo_producto": "0511"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 89,[39m\n
+  [32m        "codigo_producto": "0516"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 48,[39m\n
+  [32m        "codigo_producto": "0514"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18,[39m\n
+  [32m        "codigo_producto": "0509"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 32,[39m\n
+  [32m        "codigo_producto": "0512"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 13,[39m\n
+  [32m        "codigo_producto": "0510"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 23,[39m\n
+  [32m        "codigo_producto": "0513"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 33,[39m\n
+  [32m        "codigo_producto": "0517"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 118,[39m\n
+  [32m        "codigo_producto": "0522"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 58,[39m\n
+  [32m        "codigo_producto": "0520"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 54,[39m\n
+  [32m        "codigo_producto": "0525"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 50,[39m\n
+  [32m        "codigo_producto": "0519"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 104,[39m\n
+  [32m        "codigo_producto": "0521"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 52,[39m\n
+  [32m        "codigo_producto": "0524"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 35,[39m\n
+  [32m        "codigo_producto": "0523"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 30,[39m\n
+  [32m        "codigo_producto": "0518"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 64,[39m\n
+  [32m        "codigo_producto": "0515"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 3800,[39m\n
+  [32m        "codigo_producto": "0633"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 278,[39m\n
+  [32m        "codigo_producto": "0526"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 157,[39m\n
+  [32m        "codigo_producto": "0531"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 81,[39m\n
+  [32m        "codigo_producto": "0530"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 28,[39m\n
+  [32m        "codigo_producto": "0527"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 81,[39m\n
+  [32m        "codigo_producto": "0529"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 54,[39m\n
+  [32m        "codigo_producto": "0528"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 16,[39m\n
+  [32m        "codigo_producto": "0544"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 48,[39m\n
+  [32m        "codigo_producto": "0534"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 59,[39m\n
+  [32m        "codigo_producto": "0539"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 74,[39m\n
+  [32m        "codigo_producto": "0542"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 86,[39m\n
+  [32m        "codigo_producto": "0545"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 131,[39m\n
+  [32m        "codigo_producto": "0546"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 159,[39m\n
+  [32m        "codigo_producto": "0548"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 175,[39m\n
+  [32m        "codigo_producto": "0549"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 256,[39m\n
+  [32m        "codigo_producto": "0551"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 81,[39m\n
+  [32m        "codigo_producto": "0536"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 142,[39m\n
+  [32m        "codigo_producto": "0547"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 330,[39m\n
+  [32m        "codigo_producto": "0554"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 298,[39m\n
+  [32m        "codigo_producto": "0553"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 362,[39m\n
+  [32m        "codigo_producto": "0555"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 236,[39m\n
+  [32m        "codigo_producto": "0550"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 34,[39m\n
+  [32m        "codigo_producto": "0532"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 39,[39m\n
+  [32m        "codigo_producto": "0533"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 28,[39m\n
+  [32m        "codigo_producto": "0537"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 34,[39m\n
+  [32m        "codigo_producto": "0538"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 275,[39m\n
+  [32m        "codigo_producto": "0552"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 66,[39m\n
+  [32m        "codigo_producto": "0535"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 53,[39m\n
+  [32m        "codigo_producto": "0541"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 47,[39m\n
+  [32m        "codigo_producto": "0540"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18,[39m\n
+  [32m        "codigo_producto": "0543"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 35,[39m\n
+  [32m        "codigo_producto": "0575"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 22,[39m\n
+  [32m        "codigo_producto": "0579"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 25,[39m\n
+  [32m        "codigo_producto": "0581"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 69,[39m\n
+  [32m        "codigo_producto": "0584"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 13,[39m\n
+  [32m        "codigo_producto": "0573"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 60,[39m\n
+  [32m        "codigo_producto": "0574"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 36,[39m\n
+  [32m        "codigo_producto": "0577"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 43,[39m\n
+  [32m        "codigo_producto": "0578"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 33,[39m\n
+  [32m        "codigo_producto": "0576"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 15,[39m\n
+  [32m        "codigo_producto": "0582"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 59,[39m\n
+  [32m        "codigo_producto": "0583"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 18,[39m\n
+  [32m        "codigo_producto": "0580"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 456,[39m\n
+  [32m        "codigo_producto": "0556"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 520,[39m\n
+  [32m        "codigo_producto": "0557"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 655,[39m\n
+  [32m        "codigo_producto": "0560"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 520,[39m\n
+  [32m        "codigo_producto": "0559"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 65,[39m\n
+  [32m        "codigo_producto": "0561"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 97,[39m\n
+  [32m        "codigo_producto": "0563"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 128,[39m\n
+  [32m        "codigo_producto": "0564"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 39,[39m\n
+  [32m        "codigo_producto": "0570"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 118,[39m\n
+  [32m        "codigo_producto": "0565"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 169,[39m\n
+  [32m        "codigo_producto": "0569"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 475,[39m\n
+  [32m        "codigo_producto": "0558"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 68,[39m\n
+  [32m        "codigo_producto": "0567"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 81,[39m\n
+  [32m        "codigo_producto": "0562"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 37,[39m\n
+  [32m        "codigo_producto": "0572"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 58,[39m\n
+  [32m        "codigo_producto": "0571"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 96,[39m\n
+  [32m        "codigo_producto": "0566"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 92,[39m\n
+  [32m        "codigo_producto": "0568"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 51,[39m\n
+  [32m        "codigo_producto": "0594"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 82,[39m\n
+  [32m        "codigo_producto": "0595"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 77,[39m\n
+  [32m        "codigo_producto": "0597"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 83,[39m\n
+  [32m        "codigo_producto": "0598"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 63,[39m\n
+  [32m        "codigo_producto": "0601"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 88,[39m\n
+  [32m        "codigo_producto": "0599"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 136,[39m\n
+  [32m        "codigo_producto": "0602"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 65,[39m\n
+  [32m        "codigo_producto": "0596"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 97,[39m\n
+  [32m        "codigo_producto": "0600"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 110,[39m\n
+  [32m        "codigo_producto": "0587"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 144,[39m\n
+  [32m        "codigo_producto": "0589"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 130,[39m\n
+  [32m        "codigo_producto": "0590"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 207,[39m\n
+  [32m        "codigo_producto": "0593"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 90,[39m\n
+  [32m        "codigo_producto": "0586"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 80,[39m\n
+  [32m        "codigo_producto": "0585"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 108,[39m\n
+  [32m        "codigo_producto": "0588"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 174,[39m\n
+  [32m        "codigo_producto": "0592"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 153,[39m\n
+  [32m        "codigo_producto": "0591"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 37,[39m\n
+  [32m        "codigo_producto": "0609"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 75,[39m\n
+  [32m        "codigo_producto": "0610"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 176,[39m\n
+  [32m        "codigo_producto": "0611"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 25,[39m\n
+  [32m        "codigo_producto": "0603"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 59,[39m\n
+  [32m        "codigo_producto": "0604"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 125,[39m\n
+  [32m        "codigo_producto": "0606"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 329,[39m\n
+  [32m        "codigo_producto": "0607"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 28,[39m\n
+  [32m        "codigo_producto": "0608"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 155,[39m\n
+  [32m        "codigo_producto": "0605"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 50,[39m\n
+  [32m        "codigo_producto": "0612"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 109,[39m\n
+  [32m        "codigo_producto": "0613"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 10982,[39m\n
+  [32m        "codigo_producto": "0624"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2535,[39m\n
+  [32m        "codigo_producto": "0620"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 5719,[39m\n
+  [32m        "codigo_producto": "0623"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 4648,[39m\n
+  [32m        "codigo_producto": "0621"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 8602,[39m\n
+  [32m        "codigo_producto": "0622"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 71,[39m\n
+  [32m        "codigo_producto": "0629"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 14,[39m\n
+  [32m        "codigo_producto": "0626"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 34,[39m\n
+  [32m        "codigo_producto": "0628"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7,[39m\n
+  [32m        "codigo_producto": "O625"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 23,[39m\n
+  [32m        "codigo_producto": "0627"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 7,[39m\n
+  [32m        "codigo_producto": "0625"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 304,[39m\n
+  [32m        "codigo_producto": "0617"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 61,[39m\n
+  [32m        "codigo_producto": "0618"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 127,[39m\n
+  [32m        "codigo_producto": "0619"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 81,[39m\n
+  [32m        "codigo_producto": "0616"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 24,[39m\n
+  [32m        "codigo_producto": "0614"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 160,[39m\n
+  [32m        "codigo_producto": "0615"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 5300,[39m\n
+  [32m        "codigo_producto": "0635"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 1800,[39m\n
+  [32m        "codigo_producto": "0632"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 3700,[39m\n
+  [32m        "codigo_producto": "0638"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 6700,[39m\n
+  [32m        "codigo_producto": "0637"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 5300,[39m\n
+  [32m        "codigo_producto": "0636"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 2400,[39m\n
+  [32m        "codigo_producto": "0634"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 6667,[39m\n
+  [32m        "codigo_producto": "0630"[39m\n
+  [32m    },[39m\n
+  [32m    {[39m\n
+  [32m        "valor_compra": 6667,[39m\n
+  [32m        "codigo_producto": "0631"[39m\n
+  [32m    }[39m\n
+  [32m][39m
+  """
+
