@@ -798,7 +798,7 @@ class ReportService
             $productTaxes = $order->products()->sum( 'tax_value' );
             $totalPurchasePrice = $order->products()->sum( 'total_purchase_price' );
 
-            if($order->payment_status == Order::PAYMENT_PARTIALLY_REFUNDED || $order->payment_status == Order::PAYMENT_REFUNDED){
+            if( $order->payment_status == Order::PAYMENT_REFUNDED){
                 
                 foreach ($order->refunds as $refund) {
                     if (!Carbon::parse($refund->created_at)->isSameDay(Carbon::parse($order->created_at))) {
@@ -821,7 +821,7 @@ class ReportService
         $salida = [
             'sales_discounts' => Currency::define( $allSales->sum( 'sales_discounts' ) )->toFloat(),
             'lastClose' => Currency::define( $lastClose->balance_after )->toFloat(),
-            'totalRegister' => Currency::define( $lastClose->balance_after - $allSales->sum( 'sales_discounts' ) - $refund - $cashOut + $cashIn + $allSales->sum( 'total' ) )->toFloat(),
+            'totalRegister' => Currency::define( $lastClose->balance_after - $allSales->sum( 'sales_discounts' )  - $cashOut + $cashIn + $allSales->sum( 'total' ) )->toFloat(),
             'refund' => Currency::define( $refund )->toFloat(),
             'cashOut' => Currency::define( $cashOut )->toFloat(),
             // 'expenses' => Currency::define( $expenses )->toFloat(),
@@ -886,7 +886,7 @@ class ReportService
 
     public function getCategoryReports( $start, $end, $orderAttribute = 'name', $orderDirection = 'desc', $user_id = null, $categories_id = [] )
     {
-        $request = Order::paymentStatus( Order::PAYMENT_PAID )
+        $request = Order::paymentStatusIn( [Order::PAYMENT_PAID,Order::PAYMENT_PARTIALLY_REFUNDED] )
             ->from( $start )
             ->to( $end );
 

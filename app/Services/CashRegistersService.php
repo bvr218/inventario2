@@ -424,7 +424,7 @@ class CashRegistersService
 
             $register->opening_balance = $history->value;
 
-            $register->total_sale_amount = Order::paid()
+            $register->total_sale_amount = Order::paymentStatusIn( [Order::PAYMENT_PAID,Order::PAYMENT_PARTIALLY_REFUNDED] )
                 ->where( 'register_id', $register->id )
                 ->where( 'created_at', '>=', $history->created_at )
                 ->sum( 'total' );
