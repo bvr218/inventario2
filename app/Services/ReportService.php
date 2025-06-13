@@ -778,6 +778,11 @@ class ReportService
         $refund = OrderRefund::query()->whereHas("order",function($query) use ($register){
             $query->where("nexopos_orders.register_id",$register);
         })->where("created_at",">=",$start)->where("created_at","<=",$end)->sum("total");
+
+
+        $refunds = OrderRefund::query()->whereHas("order",function($query) use ($register){
+            $query->where("nexopos_orders.register_id",$register);
+        })->where("created_at",">=",$start)->where("created_at","<=",$end)->get();
         
         $cashIn = RegisterHistory::where("register_id",$register)->where("action","register-cash-in")
             ->where("created_at",">=",$start)->where("created_at","<=",$end)->sum("value");
@@ -807,6 +812,15 @@ class ReportService
                 }
             }
 
+            if( $order->payment_status == Order::PAYMENT_PARTIALLY_REFUNDED){
+                
+                foreach ($order->refunds as $refund) {
+                    if (!Carbon::parse($refund->created_at)->isSameDay(Carbon::parse($order->created_at))) {
+                        $order->total += $refund->total;
+                    }
+                }
+            }
+
             return [
                 'total' => $order->total,
                 'sales_discounts' => $order->discount,
@@ -814,19 +828,36 @@ class ReportService
             ];
         } );
 
+        $discounts = $allSales->sum( 'sales_discounts' );
+        $allSales = $allSales->sum( 'total' );
+
+        $total = $lastClose->balance_after - $discounts  - $cashOut + $cashIn + $allSales;
+        $start = Carbon::parse($start);
+        foreach ($refunds as $ref) {
+            $orderDate = Carbon::parse($ref->order->created_at);
+            if($orderDate->toDateString() < $start->toDateString()){
+                $total -= $ref->total;
+            }
+
+
+            // if($ref->order->payment_status == Order::PAYMENT_PARTIALLY_REFUNDED && $orderDate->toDateString() == $start->toDateString()){
+            //     $total -= $ref->total;
+            // }
+        }
+
 
 
        
 
         $salida = [
-            'sales_discounts' => Currency::define( $allSales->sum( 'sales_discounts' ) )->toFloat(),
+            'sales_discounts' => Currency::define( $discounts )->toFloat(),
             'lastClose' => Currency::define( $lastClose->balance_after )->toFloat(),
-            'totalRegister' => Currency::define( $lastClose->balance_after - $allSales->sum( 'sales_discounts' )  - $cashOut + $cashIn + $allSales->sum( 'total' ) )->toFloat(),
+            'totalRegister' => Currency::define( $total )->toFloat(),
             'refund' => Currency::define( $refund )->toFloat(),
             'cashOut' => Currency::define( $cashOut )->toFloat(),
             // 'expenses' => Currency::define( $expenses )->toFloat(),
             'cashIn' => Currency::define( $cashIn )->toFloat(),
-            'totalSale' => Currency::define( $allSales->sum( 'total' ) )->toFloat(),
+            'totalSale' => Currency::define( $allSales )->toFloat(),
         ];
         return $salida;
     }
