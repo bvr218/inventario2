@@ -798,8 +798,8 @@ class ReportService
 
         $register = Register::where("id",$register)->first();
 
-
-        $allSales = $orders->map( function ( $order ) {
+        $totalRefundSameDay = 0;
+        $allSales = $orders->map( function ( $order ) use (&$totalRefundSameDay) {
             $productTaxes = $order->products()->sum( 'tax_value' );
             $totalPurchasePrice = $order->products()->sum( 'total_purchase_price' );
 
@@ -808,6 +808,8 @@ class ReportService
                 foreach ($order->refunds as $refund) {
                     if (!Carbon::parse($refund->created_at)->isSameDay(Carbon::parse($order->created_at))) {
                         $order->total += $refund->total;
+                    }else{
+                        $totalRefundSameDay += $refund->total;
                     }
                 }
             }
@@ -817,6 +819,8 @@ class ReportService
                 foreach ($order->refunds as $refund) {
                     if (!Carbon::parse($refund->created_at)->isSameDay(Carbon::parse($order->created_at))) {
                         $order->total += $refund->total;
+                    }else{
+                        $totalRefundSameDay += $refund->total;
                     }
                 }
             }
@@ -857,7 +861,7 @@ class ReportService
             'cashOut' => Currency::define( $cashOut )->toFloat(),
             // 'expenses' => Currency::define( $expenses )->toFloat(),
             'cashIn' => Currency::define( $cashIn )->toFloat(),
-            'totalSale' => Currency::define( $allSales )->toFloat(),
+            'totalSale' => Currency::define( $allSales+$totalRefundSameDay )->toFloat(),
         ];
         return $salida;
     }
