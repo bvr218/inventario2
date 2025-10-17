@@ -11,7 +11,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
  * @property int register_id
  * @property string action
  * @property int author
- * @property float value
+ * @property float value 
  * @property int transaction_account_id
  * @property int payment_id
  * @property int payment_type_id
