@@ -3,9 +3,10 @@
 namespace App\Console\Commands;
 
 use App\Models\RegisterHistory;
+use App\Models\Register;
 use Illuminate\Console\Command;
 use Illuminate\Support\Carbon;
-use Illuminate\Support\Facades\DB; // <-- 1. Importar DB
+use Illuminate\Support\Facades\DB;
 
 class CloseRegister extends Command
 {
@@ -21,73 +22,72 @@ class CloseRegister extends Command
      *
      * @var string
      */
-    protected $description = 'Cierra las cajas que fueron abiertas hoy y que aún no han sido cerradas.';
+    protected $description = 'Cierra las cajas abiertas. Si es de noche cierra la de hoy, si es al reiniciar cierra las olvidadas de ayer.';
 
     /**
      * Execute the console command.
      */
     public function handle()
     {
-        $this->info('Iniciando proceso de cierre de cajas...');
+        $this->info('Iniciando proceso de verificación y cierre de cajas...');
 
-        // 3. Obtener los IDs de los últimos registros de cada caja, basados en fecha
-        // Esta consulta es más compleja para ser compatible con SQL estricto
-        // y para manejar empates en 'created_at'.
-
-        // 3a. Encuentra la fecha (timestamp) máxima para cada 'register_id'
+        // ---------------------------------------------------------
+        // 1. Obtener los IDs de los últimos registros de cada caja
+        // ---------------------------------------------------------
+        
+        // 1a. Encuentra la fecha (timestamp) máxima para cada 'register_id'
         $latestTimestamps = RegisterHistory::select('register_id', DB::raw('MAX(created_at) as max_created_at'))
             ->groupBy('register_id');
 
-        // 3b. Une la tabla consigo misma (usando la subconsulta) para encontrar
-        //     los registros que coinciden con esa fecha máxima.
-        //     Luego, usamos MAX(id) para desempatar si dos registros tuvieran
-        //     exactamente el mismo timestamp.
-        $latestIds = RegisterHistory::select(DB::raw('MAX(ns_nexopos_registers_history.id) as id')) // <-- MODIFICADO
+        // 1b. Une la tabla consigo misma para obtener el ID exacto del último movimiento
+        $latestIds = RegisterHistory::select(DB::raw('MAX(ns_nexopos_registers_history.id) as id'))
             ->from('nexopos_registers_history')
-            ->joinSub($latestTimestamps, 'latest', function ($join) { // <-- MODIFICADO
+            ->joinSub($latestTimestamps, 'latest', function ($join) {
                 $join->on('nexopos_registers_history.register_id', '=', 'latest.register_id')
                      ->on('nexopos_registers_history.created_at', '=', 'latest.max_created_at');
             })
-            ->groupBy('nexopos_registers_history.register_id') // <-- MODIFICADO
+            ->groupBy('nexopos_registers_history.register_id')
             ->pluck('id');
 
-
-        // 4. Obtener los objetos completos de esos últimos registros
+        // 2. Obtener los objetos completos de esos últimos registros
         $latestRegisters = RegisterHistory::whereIn('id', $latestIds)->get();
 
-        $this->info("Revisando " . $latestRegisters->count() . " cajas activas/últimas...");
+        $this->info("Revisando " . $latestRegisters->count() . " cajas activas/últimas detectadas.");
 
         foreach ($latestRegisters as $latestRegister) {
-            // 5. REQUISITO 1: Verificar si ya está cerrada
+            
+            // ---------------------------------------------------------
+            // PASO A: Verificar si ya está cerrada
+            // ---------------------------------------------------------
             if ($latestRegister->action == RegisterHistory::ACTION_CLOSING) {
-                $this->line(" - Caja {$latestRegister->register_id}: Ya está cerrada. Omitiendo.");
-                continue; // Saltar a la siguiente caja
+                // Ya está cerrada, no hacemos nada.
+                continue; 
             }
 
-            // 6. REQUISITO 2: Verificar si fue abierta HOY
-            // Lógica de sesión basada en fecha (created_at) e ID (como desempate)
-
-            // Encontrar el último registro de cierre *anterior* a este registro
-            $lastClosingRecord = RegisterHistory::where('register_id', $latestRegister->register_id) // <-- MODIFICADO
+            // ---------------------------------------------------------
+            // PASO B: Determinar cuándo se abrió esta sesión actual
+            // ---------------------------------------------------------
+            
+            // Buscar el último cierre anterior a este registro actual
+            $lastClosingRecord = RegisterHistory::where('register_id', $latestRegister->register_id)
                 ->where('action', RegisterHistory::ACTION_CLOSING)
-                // Asegurarse que es *anterior* al último registro que estamos revisando
-                ->where(function ($query) use ($latestRegister) { // <-- MODIFICADO (lógica de fecha + id)
+                ->where(function ($query) use ($latestRegister) {
                     $query->where('created_at', '<', $latestRegister->created_at)
                           ->orWhere(function ($q) use ($latestRegister) {
                               $q->where('created_at', '=', $latestRegister->created_at)
                                 ->where('id', '<', $latestRegister->id);
                           });
                 })
-                ->orderBy('created_at', 'desc') // <-- MODIFICADO
-                ->orderBy('id', 'desc')       // <-- Añadido desempate
-                ->first();                  // <-- MODIFICADO
+                ->orderBy('created_at', 'desc')
+                ->orderBy('id', 'desc')
+                ->first();
 
-            // La consulta para encontrar el registro de apertura de esta sesión
+            // Consulta base para buscar el inicio de la sesión
             $sessionQuery = RegisterHistory::where('register_id', $latestRegister->register_id);
 
-            if ($lastClosingRecord) { // <-- MODIFICADO
-                // Si hubo un cierre previo, la sesión actual empezó *después* de él
-                $sessionQuery->where(function ($query) use ($lastClosingRecord) { // <-- MODIFICADO (lógica de fecha + id)
+            if ($lastClosingRecord) {
+                // La sesión actual empezó DESPUÉS del último cierre encontrado
+                $sessionQuery->where(function ($query) use ($lastClosingRecord) {
                     $query->where('created_at', '>', $lastClosingRecord->created_at)
                           ->orWhere(function ($q) use ($lastClosingRecord) {
                               $q->where('created_at', '=', $lastClosingRecord->created_at)
@@ -95,60 +95,74 @@ class CloseRegister extends Command
                           });
                 });
             }
-            // Si $lastClosingRecord es null, la caja nunca se ha cerrado,
-            // así que la sesión empezó con el primer registro.
+            // Si $lastClosingRecord es null, es la primera sesión de la historia, tomamos desde el inicio.
 
-            // El registro de apertura es el primer registro de esta sesión
-            $openingRecord = $sessionQuery->orderBy('created_at', 'asc') // <-- MODIFICADO
-                                         ->orderBy('id', 'asc')       // <-- Añadido desempate
+            // El registro de apertura es el PRIMERO después del último cierre
+            $openingRecord = $sessionQuery->orderBy('created_at', 'asc')
+                                         ->orderBy('id', 'asc')
                                          ->first();
 
             if (!$openingRecord) {
-                // Esto es raro, pero por si acaso
-                $this->warn(" - Caja {$latestRegister->register_id}: No se pudo determinar el registro de apertura. Omitiendo.");
+                $this->warn(" - Caja {$latestRegister->register_id}: No se pudo determinar apertura. Omitiendo.");
                 continue;
             }
 
-            // 7. Comprobar la fecha del registro de apertura
-            if ($openingRecord->created_at->isToday()) {
+            // ---------------------------------------------------------
+            // PASO C: LÓGICA DE DECISIÓN (La parte crítica)
+            // ---------------------------------------------------------
+
+            // 1. ¿La caja se abrió ayer o antes? (Es una caja olvidada)
+            $esCajaVieja = $openingRecord->created_at->lt(Carbon::today());
+
+            // 2. ¿La caja es de hoy PERO ya es horario de cierre (>= 21:00)?
+            // Esto protege contra reinicios del PC a las 2 PM (no cerrará la caja)
+            $horaActual = Carbon::now()->hour;
+            $esCierreNocturno = $openingRecord->created_at->isToday() && $horaActual >= 21;
+
+            if ($esCajaVieja || $esCierreNocturno) {
                 
-                // ¡CUMPLE AMBAS CONDICIONES! (No está cerrada y se abrió hoy)
-                $this->info(" - Caja {$latestRegister->register_id}: Abierta hoy. Creando registro de cierre...");
+                $tipoCierre = $esCajaVieja ? "RECUPERACIÓN (Olvido)" : "PROGRAMADO (Fin de día)";
+                $this->info(" - Caja {$latestRegister->register_id}: Detectada abierta. Tipo: $tipoCierre. Cerrando...");
 
                 $newRegisterHistory = new RegisterHistory();
                 $newRegisterHistory->register_id = $latestRegister->register_id;
-                $newRegisterHistory->action = RegisterHistory::ACTION_CLOSING; // La acción de cierre
-                $newRegisterHistory->author = $latestRegister->author; // O un ID de "Sistema" si lo tienes
-                $newRegisterHistory->value = 0; // El cierre no mueve valor
-                $newRegisterHistory->balance_before = $latestRegister->balance_after; // El balance antes es el último balance
-                $newRegisterHistory->balance_after = $latestRegister->balance_after; // El balance después es el mismo
+                $newRegisterHistory->action = RegisterHistory::ACTION_CLOSING;
+                $newRegisterHistory->author = $latestRegister->author;
+                $newRegisterHistory->value = 0;
                 
-                // Copiar datos relevantes del último registro
-               
+                // Mantenemos los balances iguales porque el cierre automático no mueve dinero físico
+                $newRegisterHistory->balance_before = $latestRegister->balance_after;
+                $newRegisterHistory->balance_after = $latestRegister->balance_after;
+                
                 $newRegisterHistory->payment_id = NULL;
                 $newRegisterHistory->payment_type_id = 0;
                 $newRegisterHistory->order_id = NULL;
                 $newRegisterHistory->transaction_type = "negative";
                 
-                $newRegisterHistory->description = NULL; // <-- MODIFICADO
+                // Descripción dinámica según el caso
+                if ($esCajaVieja) {
+                    $newRegisterHistory->description = "Cierre automático sistema (Recuperación por olvido del día " . $openingRecord->created_at->format('Y-m-d') . ")";
+                } else {
+                    $newRegisterHistory->description = "Cierre automático sistema (Fin de jornada)";
+                }
+
                 $newRegisterHistory->uuid = NULL;
-                
-                // Asegurarnos de que el created_at es AHORA (o al menos después del último registro)
-                // Opcional: Si quieres que el cierre tenga el timestamp de "ahora".
-                // Si quieres que herede el del último, puedes copiarlo,
-                // pero "ahora" tiene más sentido para un cron.
-                $newRegisterHistory->created_at = Carbon::now(); // <-- Añadido para claridad
+                $newRegisterHistory->created_at = Carbon::now();
                 
                 $newRegisterHistory->save();
 
-                $this->info("   -> Cierre para la caja {$latestRegister->register_id} creado con ID: {$newRegisterHistory->id}.");
+                // Actualizar estado en tabla padre
+                Register::where("id", $latestRegister->register_id)->update(['status' => 'closed']);
+
+                $this->info("   -> Caja cerrada correctamente. ID Historial: {$newRegisterHistory->id}.");
 
             } else {
-                // Está abierta, pero se abrió un día anterior
-                $this->line(" - Caja {$latestRegister->register_id}: Está abierta, pero se abrió el " . $openingRecord->created_at->format('Y-m-d') . ". Omitiendo.");
+                // Caso: El script corrió (ej. reinicio a las 2 PM) pero la caja es de HOY y es temprano.
+                $fechaApertura = $openingRecord->created_at->format('Y-m-d H:i');
+                $this->line(" - Caja {$latestRegister->register_id}: Abierta ($fechaApertura). Es de hoy y aún es horario laboral (< 21:00). NO se cierra.");
             }
         }
 
-        $this->info('Proceso de cierre de cajas completado.');
+        $this->info('Proceso completado.');
     }
 }
