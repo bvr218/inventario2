@@ -753,117 +753,87 @@ class ReportService
 
     private function getCloseSummary( $orders, $register, $start, $end )
     {
+        $startCarbon = Carbon::parse( $start );
+        $endCarbon = Carbon::parse( $end );
 
-        /*
-            cashIn
-            cashOut
-            refund
-        */
-        $sub = 1;
-        do {
-            $lastClose = RegisterHistory::where("register_id",$register)->where("action","register-closing")
-            ->where("created_at",">=",Carbon::parse($start)->subDay($sub))->where("created_at","<=",Carbon::parse($end)->subDay($sub))->orderBy("created_at","desc")->first();
-            $sub++;
-        }while(is_null($lastClose)) ;
+        /**
+         * Previous close balance. If none exists, we'll assume 0.
+         */
+        $lastClose = RegisterHistory::where( 'register_id', $register )
+            ->where( 'action', RegisterHistory::ACTION_CLOSING )
+            ->where( 'created_at', '<', $startCarbon )
+            ->orderBy( 'created_at', 'desc' )
+            ->orderBy( 'id', 'desc' )
+            ->first();
 
-        
+        $lastCloseBalance = $lastClose instanceof RegisterHistory ? $lastClose->balance_after : 0;
 
+        /**
+         * For "Total en caja", we rely on register history only (movimientos de caja).
+         * This ensures same-day refunds (cash-outs) effectively reduce the total.
+         */
+        $baseHistoryQuery = RegisterHistory::where( 'register_id', $register )
+            ->where( 'created_at', '>=', $startCarbon )
+            ->where( 'created_at', '<=', $endCarbon );
 
+        $inSum = ( clone $baseHistoryQuery )
+            ->whereIn( 'action', RegisterHistory::IN_ACTIONS )
+            ->sum( 'value' );
 
-        $sql = RegisterHistory::where("register_id",$register)->where("action","register-closing")
-            ->where("created_at",">=",Carbon::parse($start)->subDay())->where("created_at","<=",Carbon::parse($end)->subDay())->orderBy("created_at","desc")->toSql();
-        
-        // $expenses = Transaction::query()->where("created_at",">=",$start)->where("created_at","<=",$end)->sum("value");
+        $outSum = ( clone $baseHistoryQuery )
+            ->whereIn( 'action', RegisterHistory::OUT_ACTIONS )
+            ->sum( 'value' );
 
-        $refund = OrderRefund::query()->whereHas("order",function($query) use ($register){
-            $query->where("nexopos_orders.register_id",$register);
-        })->where("created_at",">=",$start)->where("created_at","<=",$end)->sum("total");
+        $totalRegister = $lastCloseBalance + $inSum - $outSum;
 
+        /**
+         * Keep informational fields for display (do not use them to compute totalRegister).
+         */
+        $refund = OrderRefund::query()
+            ->whereHas( 'order', function ( $query ) use ( $register ) {
+                $query->where( 'nexopos_orders.register_id', $register );
+            } )
+            ->where( 'created_at', '>=', $startCarbon )
+            ->where( 'created_at', '<=', $endCarbon )
+            ->sum( 'total' );
 
-        $refunds = OrderRefund::query()->whereHas("order",function($query) use ($register){
-            $query->where("nexopos_orders.register_id",$register);
-        })->where("created_at",">=",$start)->where("created_at","<=",$end)->get();
-        
-        $cashIn = RegisterHistory::where("register_id",$register)->where("action","register-cash-in")
-            ->where("created_at",">=",$start)->where("created_at","<=",$end)->sum("value");
+        $cashIn = ( clone $baseHistoryQuery )
+            ->where( 'action', RegisterHistory::ACTION_CASHING )
+            ->sum( 'value' );
 
-        $cashOut = RegisterHistory::where("register_id",$register)->where("action","register-cash-out")
-            ->where("created_at",">=",$start)->where("created_at","<=",$end)->sum("value");
+        $cashOutTotal = ( clone $baseHistoryQuery )
+            ->where( 'action', RegisterHistory::ACTION_CASHOUT )
+            ->sum( 'value' );
 
-     
+        /**
+         * Historically, this is displayed as "Nota debito" (cash out excluding refunds).
+         */
+        $cashOut = $cashOutTotal - $refund;
 
-        $cashOut = $cashOut - $refund;
+        /**
+         * Optional: display sales based on cash register history to keep it consistent with movements.
+         */
+        $salesIn = ( clone $baseHistoryQuery )
+            ->where( 'action', RegisterHistory::ACTION_ORDER_PAYMENT )
+            ->sum( 'value' );
 
+        $salesChange = ( clone $baseHistoryQuery )
+            ->where( 'action', RegisterHistory::ACTION_ORDER_CHANGE )
+            ->sum( 'value' );
 
+        $totalSale = $salesIn - $salesChange;
 
-        $register = Register::where("id",$register)->first();
+        $discounts = collect( $orders )->sum( 'discount' );
 
-        $totalRefundSameDay = 0;
-        $allSales = $orders->map( function ( $order ) use (&$totalRefundSameDay) {
-            $productTaxes = $order->products()->sum( 'tax_value' );
-            $totalPurchasePrice = $order->products()->sum( 'total_purchase_price' );
-
-            if( $order->payment_status == Order::PAYMENT_REFUNDED){
-                
-                foreach ($order->refunds as $refund) {
-                    if (!Carbon::parse($refund->created_at)->isSameDay(Carbon::parse($order->created_at))) {
-                        $order->total += $refund->total;
-                    }else{
-                        $totalRefundSameDay += $refund->total;
-                    }
-                }
-            }
-
-            if( $order->payment_status == Order::PAYMENT_PARTIALLY_REFUNDED){
-                
-                foreach ($order->refunds as $refund) {
-                    if (!Carbon::parse($refund->created_at)->isSameDay(Carbon::parse($order->created_at))) {
-                        $order->total += $refund->total;
-                    }else{
-                        $totalRefundSameDay += $refund->total;
-                    }
-                }
-            }
-
-            return [
-                'total' => $order->total,
-                'sales_discounts' => $order->discount,
-                
-            ];
-        } );
-
-        $discounts = $allSales->sum( 'sales_discounts' );
-        $allSales = $allSales->sum( 'total' );
-
-        $total = $lastClose->balance_after - $discounts  - $cashOut + $cashIn + $allSales;
-        $start = Carbon::parse($start);
-        foreach ($refunds as $ref) {
-            $orderDate = Carbon::parse($ref->order->created_at);
-            if($orderDate->toDateString() < $start->toDateString()){
-                $total -= $ref->total;
-            }
-
-
-            // if($ref->order->payment_status == Order::PAYMENT_PARTIALLY_REFUNDED && $orderDate->toDateString() == $start->toDateString()){
-            //     $total -= $ref->total;
-            // }
-        }
-
-
-
-       
-
-        $salida = [
+        return [
             'sales_discounts' => Currency::define( $discounts )->toFloat(),
-            'lastClose' => Currency::define( $lastClose->balance_after )->toFloat(),
-            'totalRegister' => Currency::define( $total )->toFloat(),
+            'lastClose' => Currency::define( $lastCloseBalance )->toFloat(),
+            'totalRegister' => Currency::define( $totalRegister )->toFloat(),
             'refund' => Currency::define( $refund )->toFloat(),
             'cashOut' => Currency::define( $cashOut )->toFloat(),
-            // 'expenses' => Currency::define( $expenses )->toFloat(),
             'cashIn' => Currency::define( $cashIn )->toFloat(),
-            'totalSale' => Currency::define( $allSales+$totalRefundSameDay )->toFloat(),
+            'totalSale' => Currency::define( $totalSale )->toFloat(),
         ];
-        return $salida;
     }
 
     /**
@@ -1315,6 +1285,74 @@ class ReportService
                 return false;
             } )
             ->get();
+    }
+
+    public function getProductsInventoryReport(): array
+    {
+        /**
+         * One row per product, using the base unit of the product unit_group.
+         * Values are returned as integers (rounded) to avoid separators/decimals on UI and Excel.
+         */
+        $rows = DB::table( 'nexopos_products as p' )
+            ->leftJoin( 'nexopos_products_unit_quantities as puq', 'puq.product_id', '=', 'p.id' )
+            ->leftJoin( 'nexopos_units as u', function ( $join ) {
+                $join
+                    ->on( 'u.id', '=', 'puq.unit_id' )
+                    ->on( 'u.group_id', '=', 'p.unit_group' )
+                    ->where( 'u.base_unit', '=', 1 );
+            } )
+            ->where( 'p.type', '!=', Product::TYPE_GROUPED )
+            ->where( 'p.stock_management', '=', Product::STOCK_MANAGEMENT_ENABLED )
+            ->where( 'puq.visible', true )
+            ->whereNotNull( 'u.id' )
+            ->select( [
+                'p.id as product_id',
+                'p.name as product_name',
+                'puq.quantity as quantity',
+                'puq.sale_price as sale_price',
+                'puq.cogs as cogs',
+            ] )
+            ->orderBy( 'p.name' )
+            ->get()
+            ->map( function ( $row ) {
+                $quantity = (float) $row->quantity;
+                $salePrice = (float) $row->sale_price;
+                $cogs = (float) $row->cogs;
+
+                $totalSale = $quantity * $salePrice;
+                $totalPurchase = $quantity * $cogs;
+
+                $profitPercent = $cogs > 0 ? ( ( $salePrice - $cogs ) / $cogs ) * 100 : 0;
+
+                return [
+                    'name' => $row->product_name,
+                    'cost_unit' => (int) round( $cogs ),
+                    'sale_unit' => (int) round( $salePrice ),
+                    'quantity' => (int) round( $quantity ),
+                    'total_sale' => (int) round( $totalSale ),
+                    'total_purchase' => (int) round( $totalPurchase ),
+                    'profit_percent' => (int) round( $profitPercent ),
+                ];
+            } )
+            ->values()
+            ->toArray();
+
+        $totalSale = 0;
+        $totalPurchase = 0;
+
+        foreach ( $rows as $row ) {
+            $totalSale += (int) $row[ 'total_sale' ];
+            $totalPurchase += (int) $row[ 'total_purchase' ];
+        }
+
+        return [
+            'data' => $rows,
+            'totals' => [
+                'total_sale' => $totalSale,
+                'total_purchase' => $totalPurchase,
+                'total_products' => count( $rows ),
+            ],
+        ];
     }
 
     public function recomputeTransactions( $fromDate, $toDate )

@@ -88,6 +88,14 @@ class ReportsController extends DashboardController
         ] );
     }
 
+    public function productsInventoryReport()
+    {
+        return View::make( 'pages.dashboard.reports.products-inventory-report', [
+            'title' => __( 'Products Inventory' ),
+            'description' => __( 'Provides an overview of products cost, sale price and current stock.' ),
+        ] );
+    }
+
     /**
      * get sales based on a specific time range
      *
@@ -250,6 +258,11 @@ class ReportsController extends DashboardController
             categories: $request->input( 'categories' ),
             units: $request->input( 'units' )
         );
+    }
+
+    public function getProductsInventoryReport()
+    {
+        return $this->reportService->getProductsInventoryReport();
     }
 
     public function showCustomerStatement()

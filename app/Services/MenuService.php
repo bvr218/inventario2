@@ -422,6 +422,11 @@ class MenuService
                         'permissions' => [ 'nexopos.reports.payment-types' ],
                         'href' => ns()->url( '/dashboard/reports/payment-types' ),
                     ],
+                    'products-inventory' => [
+                        'label' => __( 'Products Inventory' ),
+                        'permissions' => [ 'nexopos.reports.inventory' ],
+                        'href' => ns()->url( '/dashboard/reports/products-inventory' ),
+                    ],
                 ],
             ],
             'settings' => [

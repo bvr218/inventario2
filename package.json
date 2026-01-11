@@ -40,6 +40,7 @@
     "vue-chartjs": "^5.3.1",
     "vue-router": "^4.4.3",
     "vue3-daterange-picker": "^1.0.1",
-    "vuedraggable": "^2.24.3"
+    "vuedraggable": "^2.24.3",
+    "xlsx": "^0.18.5"
   }
 }

@@ -18,3 +18,4 @@ Route::post( 'reports/stock-report', [ ReportsController::class, 'getStockReport
 Route::post( 'reports/product-history-combined', [ ReportsController::class, 'getProductHistoryCombined' ] );
 Route::post( 'reports/customers-statement/{customer}', [ ReportsController::class, 'getCustomerStatement' ] );
 Route::post( 'reports/compute-combined-report', [ ReportsController::class, 'computeCombinedReport' ] );
+Route::post( 'reports/products-inventory', [ ReportsController::class, 'getProductsInventoryReport' ] );

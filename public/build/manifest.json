@@ -76,9 +76,9 @@
       "_runtime-core.esm-bundler-Bzup5G8m.js"
     ]
   },
-  "_ns-prompt-popup-!~{00T}~.js": {
+  "_ns-prompt-popup-!~{00U}~.js": {
     "file": "assets/ns-prompt-popup-HgmDB_Gf.css",
-    "src": "_ns-prompt-popup-!~{00T}~.js"
+    "src": "_ns-prompt-popup-!~{00U}~.js"
   },
   "_ns-prompt-popup-DaSUNmqq.js": {
     "file": "assets/ns-prompt-popup-DaSUNmqq.js",
@@ -158,7 +158,7 @@
     "isEntry": true
   },
   "resources/scss/app.scss": {
-    "file": "assets/app-D4FwwH-Y.css",
+    "file": "assets/app-D546iumr.css",
     "src": "resources/scss/app.scss",
     "isEntry": true
   },
@@ -253,7 +253,7 @@
     "isEntry": true
   },
   "resources/ts/app.ts": {
-    "file": "assets/app-D6ckieEQ.js",
+    "file": "assets/app-CqCzxXmb.js",
     "name": "app",
     "src": "resources/ts/app.ts",
     "isEntry": true,
@@ -295,6 +295,7 @@
       "resources/ts/pages/dashboard/reports/ns-best-products-report.vue",
       "resources/ts/pages/dashboard/reports/ns-payment-types-report.vue",
       "resources/ts/pages/dashboard/reports/ns-customers-statement-report.vue",
+      "resources/ts/pages/dashboard/reports/ns-products-inventory-report.vue",
       "resources/ts/pages/dashboard/products/ns-stock-adjustment.vue",
       "resources/ts/pages/dashboard/orders/ns-order-invoice.vue",
       "resources/ts/pages/dashboard/products/ns-print-label.vue",
@@ -842,6 +843,19 @@
       "_chart-XFVd3zf7.js",
       "_ns-prompt-popup-DaSUNmqq.js",
       "_ns-avatar-image--GgTfTV1.js"
+    ]
+  },
+  "resources/ts/pages/dashboard/reports/ns-products-inventory-report.vue": {
+    "file": "assets/ns-products-inventory-report-BwZbm_8Z.js",
+    "name": "ns-products-inventory-report",
+    "src": "resources/ts/pages/dashboard/reports/ns-products-inventory-report.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/ts/bootstrap.ts",
+      "_currency-B1QCtbGi.js",
+      "__plugin-vue_export-helper-DlAUqK2U.js",
+      "_runtime-core.esm-bundler-Bzup5G8m.js",
+      "_chart-XFVd3zf7.js"
     ]
   },
   "resources/ts/pages/dashboard/reports/ns-profit-report.vue": {
